@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "کلر بلائنڈ فلٹر || CVD فلٹر || حقیقی وقت میں کسی بھی ویب پیج پر سائنسی طور پر درست رنگین وژن کی کمی سمولیشن اور اصلاحی فلٹرز کا اطلاق کرتا ہے۔",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "رنگ فلٹر کو فعال کریں",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "نقلی",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "تصحیح",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "فلٹر موڈ",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "شدت",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "موازنہ کرنے کے لیے پکڑو",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "اس سائٹ پر غیر فعال کریں",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "||| کے لیے استثناء کو ہٹا دیں۔ + __PH_0__ مزید",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "یہ توسیع اس صفحہ پر نہیں چل سکتی۔",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Viénot 1999 اور Brettel 1997 کی تحقیق پر مبنی نقلی میٹرکس۔",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "سمولیشن موڈ دکھاتا ہے کہ رنگین بصارت کی کمی والے کسی کو صفحہ کیسا لگتا ہے — ڈیزائنرز کے کام کی جانچ کرنے والوں کے لیے مفید ہے۔ تصحیح موڈ مبہم رنگوں کو ان رینجز میں منتقل کرنے کے لیے ڈالٹنائزیشن کا اطلاق کرتا ہے جسے رنگ نابینا صارفین زیادہ آسانی سے پہچان سکتے ہیں۔",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "سرخ سبز",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "نیلا پیلا",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "مونوکرومیسی",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "تصحیح",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "پروٹانوپیا",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "مکمل سرخ شنک نقصان (ریڈ بلائنڈ) کی نقل کرتا ہے۔",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "~1% مرد",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "پروٹانوملی",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "سرخ شنک حساسیت کو کم کرتا ہے (سرخ کمزور)۔",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% مرد",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Deuteranopia",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "مکمل سبز شنک نقصان (گرین بلائنڈ) کی نقل کرتا ہے۔",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% مرد",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "سب سے عام شکل، سبز مخروط کی حساسیت کو کم کرتا ہے۔",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~5% مرد",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Tritanopia",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "مکمل بلیو کون نقصان (بلیو بلائنڈ) کی نقل کرتا ہے۔",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~0.01% لوگ",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "نیلے شنک کی حساسیت کو کم کرتا ہے (نیلا کمزور)۔",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% لوگ",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "اچروماٹوپسیا",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "مکمل رنگ کے اندھے پن کی تقلید کرتا ہے — صرف روشنی کو سمجھا جاتا ہے۔",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.003% لوگ",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Achromatomaly",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "بہت کم رنگ کے تاثر کے ساتھ جزوی رنگ کے اندھے پن کی نقل کرتا ہے۔",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "نایاب",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "درست: پروٹانوپیا || سرخ نابینا صارفین کی مدد کے لیے سرخ سبز الجھن والے رنگوں کو تبدیل کرتا ہے۔",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "پروٹانوپس کے لیے",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "درست: Deuteranopia",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "سبز نابینا صارفین کی مدد کے لیے سرخ سبز الجھن والے رنگوں کو تبدیل کرتا ہے۔",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Deuteranopes کے لیے",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "درست: Tritanopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "نیلے نابینا صارفین کی مدد کے لیے نیلے پیلے الجھن کے رنگوں کو تبدیل کرتا ہے۔",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "tritanopes کے لئے",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ہائی کنٹراسٹ",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "کسی بھی ڈسپلے پر بہتر رنگ علیحدگی کے لیے سنترپتی اور کنٹراسٹ کو بڑھاتا ہے۔",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "عالمگیر",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "مونو ہائی کنٹراسٹ",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "ہائی کنٹراسٹ سیاہ اور سفید میں بدلتا ہے، جو achromatopsia استعمال کرنے والوں کے لیے مثالی ہے۔",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "achromatopes کے لئے",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

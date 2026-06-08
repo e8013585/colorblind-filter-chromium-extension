@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Өнгөний сохор шүүлтүүр",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD шүүлтүүр",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Бодит цаг хугацаанд ямар ч вэб хуудсанд өнгөний дутагдлын симуляци болон залруулгын шүүлтүүрийг шинжлэх ухааны хувьд үнэн зөв ашигладаг.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Өнгө шүүлтүүрийг идэвхжүүлэх",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Симуляци",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Залруулга",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Шүүлтүүрийн горим",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Эрчим хүч",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "||| харьцуулахын тулд удаан дарна уу Энэ сайт дээр идэвхгүй болгох",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "|||-н үл хамаарах байдлыг арилгах + __PH_0__ илүү",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Энэ өргөтгөл энэ хуудсан дээр ажиллах боломжгүй.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Viénot 1999 & Brettel 1997 судалгаанд үндэслэсэн симуляцийн матрицууд.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Загварчлалын горим нь өнгөний хараа муутай хүмүүст хуудас хэрхэн харагдахыг харуулдаг бөгөөд энэ нь тэдний ажлыг туршиж буй дизайнеруудад хэрэгтэй. Залруулгын горим нь будлиантай өнгийг өнгөний харалган хэрэглэгчид илүү хялбар ялгах мужид шилжүүлэхийн тулд далтонжуулалтыг ашигладаг.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Улаан-Ногоон",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Цэнхэр-Шар",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Монохроматик",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Залруулга",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Протанопиа",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Бүрэн улаан боргоцой алдагдлыг дуурайдаг (улаан сохор).",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~1% эрэгтэй",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Протаномали",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Улаан боргоцойны мэдрэмжийг бууруулсан (улаан-сул) дуурайлган хийдэг.",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "~1% эрэгтэй",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Дейтеранопиа",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Ногоон конусын бүрэн алдагдлыг дуурайдаг (ногоон сохор).",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "~1% эрэгтэй",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Дейтераноми",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Хамгийн түгээмэл хэлбэр болох ногоон конусын мэдрэмжийг бууруулдаг.",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "~5% эрэгтэй",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Тританопиа",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Цэнхэр конусын бүрэн алдагдлыг дуурайдаг (цэнхэр сохор).",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "хүмүүсийн ~0.01%",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Тританомали",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Цэнхэр конусын мэдрэмжийг бууруулсан (цэнхэр-сул) дуурайлган хийдэг.",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "хүмүүсийн ~0.01%",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Ахроматопси",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Өнгөний бүрэн харалган байдлыг дуурайдаг - зөвхөн гэрэлтэлтийг л хүлээн авдаг.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "хүмүүсийн ~0.003%",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Ахроматомали",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Хэсэгчилсэн өнгөний харалган байдлыг дуурайж, өнгөний ойлголтыг ихээхэн бууруулдаг.",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Ховор",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Зөв: Protanopia",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Улаан-ногоон төөрөгдүүлсэн өнгийг сольж, улаан сохор хэрэглэгчдэд туслах болно.",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Протанопын хувьд",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Зөв: Deuteranopia",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Ногоон хараагүй хэрэглэгчдэд туслах үүднээс улаан-ногоон төөрөгдүүлсэн өнгийг сольдог.",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Дейтеранопын хувьд",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Зөв: Tritanopia",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Цэнхэр сохор хэрэглэгчдэд туслахын тулд хөх-шар өнгийн будлиантай өнгийг сольсон.",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Тританопын хувьд",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Өндөр тодосгогч",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Ямар ч дэлгэц дээрх өнгөний ялгаралтыг сайжруулахын тулд ханалт болон тодосгогчийг нэмэгдүүлнэ.",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Бүх нийтийн",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Mono High Contrast",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Өндөр тодосгогч хар, цагаан өнгө болгон хувиргадаг бөгөөд энэ нь achromatopsia хэрэглэгчдэд тохиромжтой.",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Ахроматопын хувьд",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Colorblind फिल्टर",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD फिल्टर || वास्तविक समयमा कुनै पनि वेबपेजमा वैज्ञानिक रूपमा सही रंग दृष्टि कमजोरी सिमुलेशन र सुधार फिल्टरहरू लागू गर्दछ।",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "रङ फिल्टर सक्षम गर्नुहोस्",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "सिमुलेशन",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "सुधार",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "फिल्टर मोड",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "तीव्रता",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "तुलना गर्न होल्ड गर्नुहोस्",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "यो साइटमा असक्षम गर्नुहोस्",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "को लागि अपवाद हटाउनुहोस्",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "+ __PH_0__ थप",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "यो विस्तार यस पृष्ठमा चल्न सक्दैन।",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Viénot 1999 र Brettel 1997 अनुसन्धानमा आधारित सिमुलेशन म्याट्रिक्स।",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "सिमुलेशन मोडले रङ दृष्टिको कमी भएको व्यक्तिलाई पृष्ठ कस्तो देखिन्छ भनेर देखाउँछ — डिजाइनरहरूले आफ्नो कामको परीक्षण गर्नका लागि उपयोगी। कलर ब्लाइन्ड प्रयोगकर्ताहरूले अझ सजिलै छुट्याउन सक्ने दायराहरूमा भ्रमित रङहरू सार्नको लागि सुधार मोडले daltonization लागू गर्दछ।",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "रातो-हरियो || निलो-पहेंलो",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "मोनोक्रोमेसी",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "सुधार",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "प्रोटानोपिया",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "पूर्ण रेड-कोन हानि (रातो-अन्धो) लाई सिमुलेट गर्दछ।",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~१% पुरुष",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "प्रोटानोमाली",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "घटाइएको रातो-कोन संवेदनशीलता (रातो-कमजोर) लाई सिमुलेट गर्दछ।",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "~१% पुरुष",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Deuteranopia",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "पूर्ण हरियो-कोन हानि (हरियो-अन्धो) लाई सिमुलेट गर्दछ।",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "~१% पुरुष",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Deuteranomaly",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "कम गरिएको हरियो-कोन संवेदनशीलता सिमुलेट गर्दछ, सबैभन्दा सामान्य रूप।",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "~5% पुरुष",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Tritanopia",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "पूर्ण नीलो-कोन हानि (नीलो-अन्धो) सिमुलेट गर्दछ।",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "~0.01% मानिसहरू",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "त्रितानुमाली",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "कम गरिएको नीलो-कोन संवेदनशीलता (नीलो-कमजोर) लाई सिमुलेट गर्दछ।",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "~0.01% मानिसहरू",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "अक्रोमेटोप्सिया",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "पूर्ण रङ अन्धोपन अनुकरण गर्दछ - केवल चमक बुझिन्छ।",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "~0.003% मानिसहरू",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "अक्रोमेटोमाली",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "धेरै कम रंग धारणा संग आंशिक रंग अन्धोपन सिमुलेट।",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "दुर्लभ",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "सही: प्रोटानोपिया || रातो-अन्धो प्रयोगकर्ताहरूलाई मद्दत गर्न रातो-हरियो भ्रम रङहरू परिवर्तन गर्दछ।",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "प्रोटानोपका लागि",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "सही: Deuteranopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "हरियो-अन्धो प्रयोगकर्ताहरूलाई मद्दत गर्न रातो-हरियो भ्रम रङहरू परिवर्तन गर्दछ।",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Deuteranopes को लागी",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "सही: Tritanopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "नीलो-अन्धो प्रयोगकर्ताहरूलाई मद्दत गर्न नीलो-पहेंलो भ्रम रङहरू परिवर्तन गर्दछ।",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "tritanopes को लागी",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "उच्च कन्ट्रास्ट",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "कुनै पनि डिस्प्लेमा सुधारिएको रंग विभाजनको लागि संतृप्ति र कन्ट्रास्ट बढाउँछ।",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "विश्वव्यापी",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "मोनो हाई कन्ट्रास्ट",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "उच्च-कन्ट्रास्ट कालो र सेतोमा रूपान्तरण गर्दछ, achromatopsia प्रयोगकर्ताहरूको लागि आदर्श।",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "अक्रोमेटोप्सको लागि",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

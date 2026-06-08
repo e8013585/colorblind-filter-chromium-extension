@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Reňkli süzgüç",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD süzgüji",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Ylmy taýdan takyk reňk görüş ýetmezçiligini simulýasiýa we düzediş süzgüçlerini islendik web sahypasyna hakyky wagtda ulanýar.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Reňk süzgüçini işlediň",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulýasiýa",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Düzediş",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Süzgüç tertibi",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Güýçliligi",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Deňeşdirmek üçin saklaň",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Bu sahypada öçüriň",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "||| üçin kadadan çykaryň + __PH_0__ has köp",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Bu giňeltme bu sahypada işläp bilmeýär.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Viénot 1999 & Brettel 1997 gözleglerine esaslanýan simulýasiýa matrisalary.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Simulýasiýa tertibi, reňk görmek ýetmezçiligi bolan bir sahypa nähili görünýändigini görkezýär - dizaýnerler üçin işini synap görýänler üçin peýdaly. Düzediş tertibi, bulaşyk reňkleri reňkli ulanyjylaryň has aňsat tapawutlandyryp biljek diapazonlaryna geçirmek üçin daltonizasiýa ulanylýar.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Gyzyl-ýaşyl",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Gök-sary",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Monohromasiýa",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Düzediş",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Protanopiýa",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Gyzyl konusyň doly ýitgisini (gyzyl-kör) simulýasiýa edýär.",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Er Erkekleriň 1%",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Protanomali",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Gyzyl konusyň duýgurlygyny peseldýär (gyzyl-gowşak).",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Er Erkekleriň 1%",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Deuteranopiýa",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Greenaşyl konusyň doly ýitgisini (ýaşyl-kör) simulýasiýa edýär.",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Er Erkekleriň 1%",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Deuteranomali",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Iň ýaýran görnüş bolan ýaşyl konusyň duýgurlygyny peseldýär.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Er Erkekleriň 5%",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Tritanopiýa",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Mawy konusyň doly ýitgisini (gök-kör) simulýasiýa edýär.",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "People Adamlaryň 0.01%",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Tritanomali",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Gök konusyň duýgurlygyny peseldýär (gök-gowşak).",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "People Adamlaryň 0.01%",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Achromatopsia",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Reňkleriň doly körlügini simulasiýa edýär - diňe ýagtylyk duýulýar.",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "People Adamlaryň 0,003%",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Achromatomaly",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Reňk duýgusyny ep-esli peseltmek bilen bölekleýin reňk körlügini simulasiýa edýär.",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Seýrek",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Dogry: Protanopiýa",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Gyzyl-kör ulanyjylara kömek etmek üçin gyzyl-ýaşyl bulaşyk reňkleri üýtgedýär.",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Protanoplar üçin",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Dogry: Deuteranopiýa",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Greenaşyl kör ulanyjylara kömek etmek üçin gyzyl-ýaşyl bulaşyk reňkleri üýtgedýär.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Deuteranoplar üçin",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Dogry: Tritanopiýa",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Gök-kör ulanyjylara kömek etmek üçin gök-sary bulaşyk reňkleri üýtgedýär.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Tritanoplar üçin",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Contokary kontrast",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Islendik ekranda reňkleriň bölünmegi üçin doýgunlygy we kontrasty güýçlendirýär.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Univershliumumy",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Mono ýokary kontrast",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Achromatopsia ulanyjylary üçin ideal bolan ýokary kontrastly gara we ak reňklere öwrülýär.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Akromatoplar üçin",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

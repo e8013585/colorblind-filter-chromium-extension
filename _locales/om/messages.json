@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filtara Halluu Jaamaa",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Filter CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Fakkeenya hanqina mul'ata halluu saayinsaawaa ta'e fi calaqqee sirreeffama fuula marsariitii kamiyyuu irratti yeroo qabatamaa keessatti hojiirra oolcha.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Filtara halluu dandeessisi",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Fakkeessaa",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Sirreeffama",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Haalata calaqqee",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Cimina",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Wal bira qabuuf qabadhu",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Marsariitii kana irratti hojii irraa oolchuu",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "||| tiif ala ta'e haqi + __PH_0__ caalaa",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Eksteenshiniin kun fuula kana irratti hojjechuu hin danda'u.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Maatiriksii simulaasii qorannoo Viénot 1999 & Brettel 1997 irratti hundaa’e.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Haalli fakkeenyaa akkaataa fuul-barruun nama hanqina mul'ata halluu qabutti mul'atu agarsiisa — dizaayinaroonni hojii isaanii qorataniif faayidaa qaba. Haalli sirreeffamaa halluuwwan burjaaja'oo gara hangawwan fayyadamtoonni halluu jaamaa salphaatti adda baasuu danda'anitti jijjiiruuf daltonization hojiirra oolcha.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Diimaa-Magariisa",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Biluu-Keelloo",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Monochromacy",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Sirreeffama",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Pirootaanoopiyaa",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Kasaaraa koonii diimaa guutuu (diimaa-jaamaa) fakkeessa.",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "~1% dhiira",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Protanomaly",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Miira koonii diimaa hir’ate (diimaa-laafaadha) fakkeessa.",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~1% dhiira",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Deuteranopia",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Kasaaraa koonii magariisaa guutuu fakkeessa (magariisa-jaamaa).",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "~1% dhiira",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Deuteranomaly",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Miira magariisa-koonii hir'ate fakkeessa, bifa baay'ee beekamaadha.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "~Dhiira %5",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Tritanopia",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Kasaaraa koonii-buluu guutuu (blue-blind) fakkeessa.",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~0.01% namoota",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Tritanomaly",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Miira koonii-buluu hir’ate fakkeessa (buluu-laafaadha).",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "~0.01% namoota",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Akroomaatoopsiyaa",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Jaamummaa halluu guutuu fakkeessa — ifa qofatu hubatama.",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "~0.003% namoota",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Akroomaatoomaalii",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Hubannoo halluu baay'ee hir'atuun jaamummaa halluu gartokkee fakkeessa.",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Rare",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Sirrii: Protanopia",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Fayyadamtoota diimaa-jaamaa gargaaruuf halluu burjaajii diimaa-magariisa jijjiira.",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Pirootaanoopootaaf",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Sirrii: Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Fayyadamtoota magariisa-jaamaa gargaaruuf halluu burjaajii diimaa-magariisa jijjiira.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Deuteranopes jedhamuuf",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Sirrii: Tritanopia",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Fayyadamtoota halluu diimaa-jaamaa gargaaruuf halluuwwan burjaajii halluu diimaa-keelloo jijjiira.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Tritanopes tiif",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Faallaa Ol'aanaa",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Agarsiisa kamiyyuu irratti addaan ba'iinsa halluu fooyya'aa ta'eef guutuu fi walfaallaa guddisa.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Yuunivarsiitii",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Mono Faallaa Ol'aanaa",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Gara gurraachaafi adii walfaallaa guddaa qabuutti jijjiirama, fayyadamtoota akiroomaatoopsiyaatiif mijataa dha.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Akroomaatooppiidhaaf",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

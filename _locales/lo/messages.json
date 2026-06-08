@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ການກັ່ນຕອງຕາບອດສີ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "ການກັ່ນຕອງ CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "ນຳໃຊ້ການຈຳລອງການເບິ່ງເຫັນສີທີ່ຖືກຕ້ອງທາງວິທະຍາສາດ ແລະການກັ່ນຕອງການແກ້ໄຂກັບໜ້າເວັບໃດໜຶ່ງໃນເວລາຈິງ.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "ເປີດໃຊ້ຕົວກອງສີ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ການຈຳລອງ",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "ແກ້",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ໂໝດກອງ",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ຄວາມເຂັ້ມຂຸ້ນ",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "ຖືເພື່ອປຽບທຽບ",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ປິດການໃຊ້ງານຢູ່ໃນເວັບໄຊນີ້",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ເອົາຂໍ້ຍົກເວັ້ນສໍາລັບ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 ເພີ່ມເຕີມ",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "ສ່ວນຂະຫຍາຍນີ້ບໍ່ສາມາດແລ່ນຢູ່ໃນໜ້ານີ້ໄດ້.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Simulation matrices ອີງໃສ່ການຄົ້ນຄວ້າ Viénot 1999 & Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ຮູບແບບການຈໍາລອງສະແດງໃຫ້ເຫັນວິທີທີ່ຫນ້າເບິ່ງໄປຫາຜູ້ທີ່ມີຄວາມບົກຜ່ອງດ້ານການເບິ່ງເຫັນສີ — ເປັນປະໂຫຍດສໍາລັບນັກອອກແບບທົດສອບການເຮັດວຽກຂອງເຂົາເຈົ້າ. ໂໝດການແກ້ໄຂນຳໃຊ້ daltonization ເພື່ອປ່ຽນສີທີ່ສັບສົນໄປສູ່ຂອບເຂດທີ່ຜູ້ໃຊ້ຕາບອດສີສາມາດຈຳແນກໄດ້ງ່າຍຂຶ້ນ.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ສີແດງ-ຂຽວ",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "ສີຟ້າ-ເຫຼືອງ",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monochromacy",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "ແກ້",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "ຈໍາລອງການສູນເສຍຮູບໄຂ່ແດງທີ່ສົມບູນ (ຕາບອດສີແດງ).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% ຂອງຜູ້ຊາຍ",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ຈໍາລອງການຫຼຸດຜ່ອນຄວາມອ່ອນໄຫວຂອງໂກນສີແດງ (ສີແດງອ່ອນ).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% ຂອງຜູ້ຊາຍ",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "ຈໍາລອງການສູນເສຍສີຂຽວ-ໂກນຢ່າງສົມບູນ (ສີຂຽວ-ຕາບອດ).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% ຂອງຜູ້ຊາຍ",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "ຈໍາລອງການຫຼຸດຜ່ອນຄວາມອ່ອນໄຫວຂອງໂກນສີຂຽວ, ຮູບແບບທົ່ວໄປທີ່ສຸດ.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% ຂອງຜູ້ຊາຍ",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "ຈຳລອງການສູນເສຍຮູບຊົງສີຟ້າທີ່ສົມບູນ (ສີຟ້າ-ຕາບອດ).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% ຂອງປະຊາຊົນ",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "ຈໍາລອງການຫຼຸດຜ່ອນຄວາມອ່ອນໄຫວຂອງກວຍສີຟ້າ (ສີຟ້າອ່ອນ).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% ຂອງປະຊາຊົນ",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Achromatopsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "ຈໍາລອງການຕາບອດສີທີ່ສົມບູນ - ພຽງແຕ່ຮັບຮູ້ຄວາມສະຫວ່າງ.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% ຂອງປະຊາຊົນ",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Achromatomaly",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ຈໍາລອງການຕາບອດສີບາງສ່ວນດ້ວຍການຮັບຮູ້ສີທີ່ຫຼຸດລົງຢ່າງຫຼວງຫຼາຍ.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "ຫາຍາກ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ຖືກຕ້ອງ: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ປ່ຽນສີສັບສົນສີແດງ-ສີຂຽວເພື່ອຊ່ວຍຜູ້ໃຊ້ຕາບອດສີແດງ.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "ສໍາລັບ protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ຖືກຕ້ອງ: Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ປ່ຽນສີສັບສົນສີແດງ-ສີຂຽວເພື່ອຊ່ວຍຜູ້ໃຊ້ສີຂຽວ-ຕາບອດ.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ສໍາລັບ deuteranopes",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ຖືກຕ້ອງ: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ປ່ຽນສີສັບສົນສີຟ້າ-ເຫຼືອງເພື່ອຊ່ວຍຜູ້ໃຊ້ຕາບອດສີຟ້າ.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ສໍາລັບ tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "ຄວາມຄົມຊັດສູງ",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "ເພີ່ມຄວາມອີ່ມຕົວ ແລະຄວາມຄົມຊັດສໍາລັບການແຍກສີທີ່ປັບປຸງໃຫ້ດີຂຶ້ນໃນຈໍສະແດງຜົນໃດໆ.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "ສາກົນ",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono High Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "ປ່ຽນເປັນສີຂາວດຳທີ່ມີຄວາມຄົມຊັດສູງ, ເໝາະສຳລັບຜູ້ໃຊ້ achromatopsia.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "ສໍາລັບ achromatopes",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

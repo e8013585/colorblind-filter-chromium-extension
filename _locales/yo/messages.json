@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Awọ afọju Ajọ || Ajọ CVD",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Lilo kikopa aipe iran awọ deede ti imọ-jinlẹ ati awọn asẹ atunṣe si oju opo wẹẹbu eyikeyi ni akoko gidi.",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Muu àlẹmọ awọ ṣiṣẹ",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Simulation",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Atunse",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Ipo àlẹmọ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Kikanra",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Dimu lati ṣe afiwe || Pa lori ojula yi",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Yọ kuro fun",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "+ __PH_0__ siwaju sii",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Ifaagun yii ko le ṣiṣẹ lori oju-iwe yii.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Matrices Simulation da lori Viénot 1999 & Brettel 1997 iwadi.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Ipo kikopa fihan bi oju-iwe kan ṣe n wo ẹnikan ti o ni aipe iran awọ - wulo fun awọn apẹẹrẹ ṣe idanwo iṣẹ wọn. Ipo atunṣe kan daltonization lati yi awọn awọ iruju pada si awọn sakani ti awọn olumulo afọju le ṣe iyatọ ni irọrun diẹ sii.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Pupa-Awọ ewe || Blue-Yellow || monochromacy",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Atunse",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Protanopia || Simulates pipe ipadanu konu pupa (pupa-afọju).",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "~1% ti awọn ọkunrin || Protanomaly || Simulates dinku ifamọ konu pupa (pupa-alailagbara).",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "~1% ti awọn ọkunrin || Deuteranopia",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Simulates pipe pipadanu konu alawọ ewe (awọ-awọ-afọju).",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~1% ti awọn ọkunrin || Deuteranomaly || Simulates dinku ifamọ-konu alawọ ewe, fọọmu ti o wọpọ julọ.",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "~ 5% ti awọn ọkunrin || Tritanopia",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Simulates pipe pipadanu buluu-konu (afọju buluu).",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "~ 0.01% ti awọn eniyan || Tritanomaly || Simulates dinku ifamọ-konu buluu (alailagbara buluu).",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~ 0.01% ti awọn eniyan || Achromatopsia",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Simulates pipe awọ ifọju - nikan luminance ti wa ni ti fiyesi.",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "~ 0.003% ti awọn eniyan || Achromatomaly",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Ṣe afiwe ifọju awọ apa kan pẹlu iwo awọ ti o dinku pupọ.",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Toje",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Atunse: Protanopia || Yipada awọn awọ iporuru pupa-alawọ ewe lati ṣe iranlọwọ fun awọn olumulo afọju pupa.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Fun protanopes || Atunse: Deuteranopia || Yipada awọn awọ rudurudu pupa-alawọ ewe lati ṣe iranlọwọ fun awọn olumulo afọju alawọ ewe.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Fun deuteranopes || Atunse: Tritanopia || Yipada awọn awọ iporuru bulu-ofeefee lati ṣe iranlọwọ fun awọn olumulo afọju buluu.",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Fun tritanopes",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Iyatọ giga",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Igbelaruge ekunrere ati itansan fun ilọsiwaju awọ Iyapa lori eyikeyi ifihan.",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Gbogbo agbaye",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Mono High Itansan",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Awọn iyipada si dudu ati funfun itansan giga, apẹrẹ fun awọn olumulo achromatopsia.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Fun awọn achromatopes",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

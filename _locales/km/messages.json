@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "តម្រងពិការភ្នែកពណ៌",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "តម្រង CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "អនុវត្ត​ការក្លែង​ធ្វើ​ការ​មើល​ឃើញ​ពណ៌​ដែល​ត្រឹមត្រូវ​តាម​បែប​វិទ្យាសាស្ត្រ និង​តម្រង​កែ​ទៅ​គេហទំព័រ​ណា​មួយ​ក្នុង​ពេល​ជាក់ស្តែង។",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "បើក​តម្រង​ពណ៌",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ក្លែងធ្វើ",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "កែ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "របៀបតម្រង",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "អាំងតង់ស៊ីតេ",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "សង្កត់ដើម្បីប្រៀបធៀប",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "បិទនៅលើគេហទំព័រនេះ",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ដកការលើកលែងសម្រាប់",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 ច្រើនទៀត",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "កម្មវិធីបន្ថែមនេះមិនអាចដំណើរការនៅលើទំព័រនេះបានទេ។",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ម៉ាទ្រីសក្លែងធ្វើដោយផ្អែកលើការស្រាវជ្រាវ Viénot 1999 & Brettel 1997 ។",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "របៀប​ក្លែង​ធ្វើ​បង្ហាញ​ពី​របៀប​ដែល​ទំព័រ​មើល​ទៅ​នរណា​ម្នាក់​ដែល​មាន​ការ​មើល​ឃើញ​ពណ៌​ដែល​មាន​ភាព​ខ្វះខាត — មាន​ប្រយោជន៍​សម្រាប់​អ្នក​រចនា​សាកល្បង​ការងារ​របស់​ពួកគេ។ របៀបកែតម្រូវអនុវត្ត daltonization ដើម្បីផ្លាស់ប្តូរពណ៌ដែលច្រលំទៅជាជួរដែលអ្នកប្រើប្រាស់ពិការភ្នែកពណ៌អាចបែងចែកកាន់តែងាយស្រួល។",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ក្រហម-បៃតង",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "ខៀវ-លឿង",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "មនោវិទ្យា",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "កែ",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "ក្លែងធ្វើការបាត់បង់កោណក្រហមទាំងស្រុង (ពិការភ្នែកក្រហម)។",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~ 1% នៃបុរស",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ក្លែងធ្វើកាត់បន្ថយភាពប្រែប្រួលនៃកោណក្រហម (ក្រហម-ខ្សោយ)។",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~ 1% នៃបុរស",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "ក្លែងធ្វើការបាត់បង់កោណបៃតងពេញលេញ (បៃតង-ពិការភ្នែក)។",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~ 1% នៃបុរស",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "ត្រាប់តាមកាត់បន្ថយភាពប្រែប្រួលនៃកោណពណ៌បៃតង ដែលជាទម្រង់ទូទៅបំផុត។",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~ 5% នៃបុរស",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "ក្លែងធ្វើការបាត់បង់កោណពណ៌ខៀវពេញលេញ (ខៀវ-ពិការភ្នែក)។",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% នៃមនុស្ស",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ទ្រីតាណូម៉ាលី",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "ក្លែងធ្វើការថយចុះភាពប្រែប្រួលនៃកោណពណ៌ខៀវ (ពណ៌ខៀវខ្សោយ) ។",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% នៃមនុស្ស",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "អាក្រូម៉ាតូសៀ",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "ក្លែងធ្វើពិការភ្នែកពណ៌ទាំងស្រុង - មានតែពន្លឺប៉ុណ្ណោះដែលត្រូវបានយល់ឃើញ។",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% នៃមនុស្ស",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "អាក្រូម៉ាតូម៉ាលី",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ក្លែងធ្វើពិការភ្នែកពណ៌ដោយផ្នែកជាមួយនឹងការយល់ឃើញពណ៌ថយចុះយ៉ាងខ្លាំង។",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "កម្រ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ត្រឹមត្រូវ៖ Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ប្ដូរ​ពណ៌​ច្រលំ​ពណ៌​បៃតង​ក្រហម ដើម្បី​ជួយ​អ្នក​ប្រើ​ដែល​ងងឹត​ភ្នែក​ក្រហម។",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "សម្រាប់ protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ត្រឹមត្រូវ៖ Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ប្ដូរ​ពណ៌​ច្របូកច្របល់​ពណ៌​បៃតង​ក្រហម ដើម្បី​ជួយ​អ្នក​ប្រើ​ពិការ​ភ្នែក​បៃតង។",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "សម្រាប់ deuteranopes",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ត្រឹមត្រូវ៖ Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ប្ដូរ​ពណ៌​ច្រលំ​ពណ៌​ខៀវ-លឿង ដើម្បី​ជួយ​អ្នក​ប្រើ​ពិការ​ភ្នែក​ខៀវ។",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "សម្រាប់ tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "កម្រិតពណ៌ខ្ពស់",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "បង្កើនភាពឆ្អែត និងកម្រិតពណ៌សម្រាប់ការបំបែកពណ៌ប្រសើរឡើងនៅលើអេក្រង់ណាមួយ។",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "សកល",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono High Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "បំប្លែងទៅជាសខ្មៅដែលមានកម្រិតពណ៌ខ្ពស់ ដែលល្អសម្រាប់អ្នកប្រើប្រាស់ achromatopsia ។",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "សម្រាប់ achromatopes",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

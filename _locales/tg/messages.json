@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Филтри кӯри ранг",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Филтри CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Моделизатсия ва филтрҳои ислоҳи норасоии биниши рангҳои аз ҷиҳати илмӣ дақиқро дар вақти воқеӣ ба ҳама гуна вебсайтҳо татбиқ мекунад.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Филтри рангро фаъол",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Симуляция",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Ислоҳ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Ҳолати филтр",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Шиддат",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Барои муқоиса",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "нигоҳ доред Хомӯш кардан дар ин сайт",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Истисноро барои",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "хориҷ кунед + $1 бештар",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Ин васеъшавӣ дар ин саҳифа кор карда наметавонад.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Матритсаҳои моделиронӣ дар асоси тадқиқоти Viénot 1999 ва Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Реҷаи симулятсия нишон медиҳад, ки чӣ гуна саҳифа ба шахсе, ки биниши ранг дорад, барои тарроҳон, ки кори онҳоро месанҷад, муфид аст. Ҳолати ислоҳи далтонизатсияро барои иваз кардани рангҳои печида ба диапазонҳое истифода мебарад, ки корбарони нобиноён метавонанд ба осонӣ фарқ кунанд.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Сурх-сабз",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Кабуд-зард",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Монохромия",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Ислоҳ",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Протанопия",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Талафоти пурраи сурхи конусро тақлид мекунад (сурх-кӯр).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% мардон",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Протаномалия",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Ҳассосияти пасти сурх ба конусро тақлид мекунад (сурх-заиф).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% мардон",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Дейтеранопия",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Талафоти пурраи сабз-конусро тақлид мекунад (сабз-кӯр).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% мардон",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Дейтераномалия",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Ҳассосияти пасти конуси сабзро, шакли маъмултаринро тақлид мекунад.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% мардон",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Тританопия",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Талафоти пурраи кабуди конусро тақлид мекунад (кабуд-кӯр).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0,01% одамон",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Тританомалия",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Ҳассосияти пасти кабуд ба конусро тақлид мекунад (кабуд-заиф).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0,01% одамон",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Ахроматопсия",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Кӯрии пурраи рангҳоро тақлид мекунад - танҳо равшанӣ қабул карда мешавад.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0,003% одамон",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Ахроматомалия",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Кӯрии қисман рангро бо дарки хеле коҳишёфтаи рангҳо тақлид мекунад.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Нодир",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Дуруст: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Рангҳои ошуфтагии сурху сабзро иваз мекунад, то ба корбарони нобиноёни сурх кӯмак расонад.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Барои протанопҳо",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Дуруст: Дейтеранопия",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Рангҳои ошуфтагии сурху сабзро иваз мекунад, то ба корбарони нобиноёни сабз кӯмак расонад.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Барои дейтеранопҳо",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Дуруст: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Рангҳои ошуфтагии кабуд-зардро иваз мекунад, то ба корбарони нобиноёни кабуд кӯмак расонад.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Барои тританопҳо",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Контрасти баланд",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Тофташавӣ ва контрастро барои беҳтар кардани ҷудокунии рангҳо дар ҳама гуна экран афзоиш медиҳад.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "универсал",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Контрасти моно баланд",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Ба сиёҳ ва сафеди контрасти баланд табдил меёбад, ки барои корбарони ахроматопсия беҳтарин аст.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Барои ахроматопҳо",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <div id="not-available-banner" class="not-available-banner" hidden aria-live="polite">
+    <span id="not-available-text"></span>
+  </div>
+
+  <main id="main-content">
+
+    <header class="popup-header">
+      <div class="header-left">
+        <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"
+             xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11
+                   11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5a5 5 0 1 1 0-10 5 5 0 0 1
+                   0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+        </svg>
+        <span id="header-title" class="header-title"></span>
+      </div>
+
+      <div class="header-right">
+        <label class="toggle-label" id="master-toggle-label">
+          <span id="master-toggle-sr" class="sr-only"></span>
+          <input type="checkbox" id="master-toggle" role="switch"
+                 aria-labelledby="master-toggle-sr" />
+          <span class="toggle-track" aria-hidden="true">
+            <span class="toggle-thumb"></span>
+          </span>
+        </label>
+      </div>
+    </header>
+
+    <div id="controls-wrapper">
+
+      <div class="mode-tabs" role="tablist" id="mode-tablist"
+           aria-label="">
+        <button class="mode-tab" role="tab" id="tab-simulation"
+                aria-selected="false" aria-controls="filter-grid"
+                data-mode="simulation" tabindex="-1">
+        </button>
+        <button class="mode-tab" role="tab" id="tab-correction"
+                aria-selected="false" aria-controls="filter-grid"
+                data-mode="correction" tabindex="-1">
+        </button>
+      </div>
+
+      <div class="filter-grid" id="filter-grid" role="tabpanel"
+           tabindex="0" aria-labelledby="mode-tablist">
+      </div>
+
+      <div class="intensity-section" id="intensity-section" hidden>
+        <div class="intensity-header">
+          <label class="intensity-label" id="intensity-label" for="intensity-slider">
+          </label>
+          <span class="intensity-value" id="intensity-value">100%</span>
+        </div>
+        <input type="range" id="intensity-slider" class="intensity-slider"
+               min="0" max="100" step="1" value="100"
+               aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" />
+      </div>
+
+      <div class="compare-section" id="compare-section" hidden>
+        <button class="compare-btn" id="compare-btn" type="button">
+        </button>
+      </div>
+
+      <div class="exceptions-section">
+        <div class="exceptions-header">
+          <span id="exceptions-label" class="exceptions-label"></span>
+          <label class="toggle-label toggle-label--small">
+            <span id="exception-toggle-sr" class="sr-only"></span>
+            <input type="checkbox" id="exception-toggle"
+                   aria-labelledby="exceptions-label exception-toggle-sr" />
+            <span class="toggle-track toggle-track--small" aria-hidden="true">
+              <span class="toggle-thumb"></span>
+            </span>
+          </label>
+        </div>
+        <ul class="exceptions-list" id="exceptions-list" aria-live="polite">
+        </ul>
+      </div>
+
+    </div>
+
+    <footer class="popup-footer">
+      <p id="footer-note" class="footer-note"></p>
+      <div class="footer-info">
+        <button class="info-btn" id="info-btn" type="button"
+                aria-expanded="false" aria-controls="info-tooltip">
+          ?
+        </button>
+        <div class="info-tooltip" id="info-tooltip" role="tooltip" hidden>
+          <p id="info-tooltip-text"></p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="filters.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

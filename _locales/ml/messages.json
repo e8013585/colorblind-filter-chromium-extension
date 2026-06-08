@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "കളർബ്ലൈൻഡ് ഫിൽട്ടർ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD ഫിൽട്ടർ",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "ഏത് വെബ്‌പേജിലേക്കും തത്സമയം ശാസ്ത്രീയമായി കൃത്യമായ വർണ്ണ കാഴ്ച കുറവുള്ള സിമുലേഷനും തിരുത്തൽ ഫിൽട്ടറുകളും പ്രയോഗിക്കുന്നു.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "കളർ ഫിൽട്ടർ പ്രവർത്തനക്ഷമമാക്കുക",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "അനുകരണം",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "തിരുത്തൽ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ഫിൽട്ടർ മോഡ്",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "തീവ്രത",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "താരതമ്യം ചെയ്യാൻ പിടിക്കുക",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ഈ സൈറ്റിൽ പ്രവർത്തനരഹിതമാക്കുക",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "|||. എന്നതിനുള്ള ഒഴിവാക്കൽ നീക്കം ചെയ്യുക + __PH_0__ കൂടുതൽ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "ഈ വിപുലീകരണം ഈ പേജിൽ പ്രവർത്തിപ്പിക്കാൻ കഴിയില്ല.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "വിയനോട്ട് 1999 & ബ്രെറ്റൽ 1997 ഗവേഷണത്തെ അടിസ്ഥാനമാക്കിയുള്ള സിമുലേഷൻ മെട്രിക്സ്.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "വർണ്ണ കാഴ്ച കുറവുള്ള ഒരാൾക്ക് ഒരു പേജ് എങ്ങനെ കാണപ്പെടുന്നുവെന്ന് സിമുലേഷൻ മോഡ് കാണിക്കുന്നു - ഡിസൈനർമാർക്ക് അവരുടെ ജോലി പരിശോധിക്കുന്നതിന് ഉപയോഗപ്രദമാണ്. വർണ്ണാന്ധതയുള്ള ഉപയോക്താക്കൾക്ക് കൂടുതൽ എളുപ്പത്തിൽ വേർതിരിച്ചറിയാൻ കഴിയുന്ന ശ്രേണികളിലേക്ക് ആശയക്കുഴപ്പമുണ്ടാക്കുന്ന നിറങ്ങൾ മാറ്റാൻ കറക്ഷൻ മോഡ് ഡാൾട്ടണൈസേഷൻ പ്രയോഗിക്കുന്നു.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ചുവപ്പ്-പച്ച",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "നീല-മഞ്ഞ || മോണോക്രോമസി",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "തിരുത്തൽ",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Protanopia",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "പൂർണ്ണമായ റെഡ്-കോൺ നഷ്ടം (ചുവപ്പ്-അന്ധൻ) അനുകരിക്കുന്നു.",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "പുരുഷന്മാരുടെ ~1%",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "പ്രോട്ടനോമലി",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "റെഡ്-കോൺ സെൻസിറ്റിവിറ്റി (ചുവപ്പ്-ബലഹീനത) കുറയ്ക്കുന്നു.",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "പുരുഷന്മാരുടെ ~1%",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ഡ്യൂട്ടറനോപ്പിയ",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "പൂർണ്ണമായ ഗ്രീൻ-കോൺ നഷ്ടം (ഗ്രീൻ-ബ്ലൈൻഡ്) അനുകരിക്കുന്നു.",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "പുരുഷന്മാരുടെ ~1%",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "ഡ്യൂറ്ററനോമലി",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "ഏറ്റവും സാധാരണമായ രൂപമായ ഗ്രീൻ-കോൺ സെൻസിറ്റിവിറ്റി കുറയ്ക്കുന്നു.",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "പുരുഷന്മാരുടെ ~5%",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "ട്രൈറ്റനോപിയ",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "പൂർണ്ണമായ നീല-കോൺ നഷ്ടം (നീല-അന്ധൻ) അനുകരിക്കുന്നു.",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "~0.01% ആളുകൾ",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "ട്രൈറ്റനോമലി",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "ബ്ലൂ-കോൺ സെൻസിറ്റിവിറ്റി (നീല-ദുർബലമായത്) കുറയ്ക്കുന്നു.",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "~0.01% ആളുകൾ",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "അക്രോമാറ്റോപ്സിയ",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "പൂർണ്ണമായ വർണ്ണാന്ധതയെ അനുകരിക്കുന്നു - പ്രകാശം മാത്രം മനസ്സിലാക്കുന്നു.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "~0.003% ആളുകൾ",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "അക്രോമാറ്റോമലി",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "ഭാഗിക വർണ്ണാന്ധതയെ വളരെ കുറച്ച് വർണ്ണ ധാരണയോടെ അനുകരിക്കുന്നു.",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "അപൂർവ്വം",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ശരിയാണ്: പ്രോട്ടനോപ്പിയ",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "ചുവപ്പ്-അന്ധരായ ഉപയോക്താക്കളെ സഹായിക്കുന്നതിന് ചുവപ്പ്-പച്ച കൺഫ്യൂഷൻ നിറങ്ങൾ മാറ്റുന്നു.",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "പ്രോട്ടാനോപ്പുകൾക്കായി",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ശരി: ഡ്യൂറ്ററനോപ്പിയ",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "പച്ച-അന്ധ ഉപയോക്താക്കളെ സഹായിക്കുന്നതിന് ചുവപ്പ്-പച്ച ആശയക്കുഴപ്പം നിറങ്ങൾ മാറ്റുന്നു.",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ഡ്യൂറ്ററനോപ്പുകൾക്ക്",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ശരിയാണ്: ട്രൈറ്റനോപിയ",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "നീല-അന്ധ ഉപയോക്താക്കളെ സഹായിക്കുന്നതിന് നീല-മഞ്ഞ കൺഫ്യൂഷൻ നിറങ്ങൾ മാറ്റുന്നു.",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ട്രൈറ്റാനോപ്പുകൾക്ക്",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ഉയർന്ന ദൃശ്യതീവ്രത || ഏത് ഡിസ്‌പ്ലേയിലും മെച്ചപ്പെട്ട വർണ്ണ വിഭജനത്തിനായി സാച്ചുറേഷനും കോൺട്രാസ്റ്റും വർദ്ധിപ്പിക്കുന്നു.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "യൂണിവേഴ്സൽ",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "മോണോ ഹൈ കോൺട്രാസ്റ്റ്",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "ഉയർന്ന കോൺട്രാസ്റ്റ് കറുപ്പും വെളുപ്പും ആയി പരിവർത്തനം ചെയ്യുന്നു, അക്രോമാറ്റോപ്സിയ ഉപയോക്താക്കൾക്ക് അനുയോജ്യമാണ്.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "അക്രോമാറ്റോപ്പുകൾക്കായി",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "色覚異常フィルター",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVDフィルター |||科学的に正確な色覚異常シミュレーションと補正フィルターをあらゆる Web ページにリアルタイムで適用します。 |||カラーフィルターを有効にする |||シミュレーション |||訂正 |||フィルターモード |||強度 |||押し続けて比較 |||このサイトでは無効にする",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "||| の例外を削除します。 + __PH_0__ もっと |||この拡張機能はこのページでは実行できません。",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Viénot 1999 および Brettel 1997 の調査に基づいたシミュレーション マトリックス。 |||シミュレーション モードは、色覚異常のある人にページがどのように見えるかを示します。これは、デザイナーが自分の作業をテストするのに役立ちます。補正モードはダルトン化を適用して、紛らわしい色を色盲のユーザーがより簡単に区別できる範囲にシフトします。 |||赤緑 |||青黄|||モノクロマシー |||訂正 |||色覚異常 |||赤錐体完全喪失 (赤盲) をシミュレートします。 |||男性の ~1% |||原反異常 |||赤錐体感度の低下 (赤弱) をシミュレートします。 |||男性の ~1% |||第二盲 |||完全な緑色錐体喪失 (緑色ブラインド) をシミュレートします。 |||男性の ~1% |||第二位 |||最も一般的な形式である緑色錐体感度の低下をシミュレートします。 |||男性の約 5% |||トリタノピア |||完全な青錐体喪失 (青盲) をシミュレートします。",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "~0.01% の人 |||トリタノマリー |||低下した青錐体の感度 (青が弱い) をシミュレートします。",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "~0.01% の人 |||アクロマトプシア |||完全な色覚異常をシミュレートします。明るさのみが知覚されます。",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "~0.003% の人 |||色消し |||色知覚が大幅に低下した部分的な色覚異常をシミュレートします。 |||珍しい |||正解: 第一色覚 |||赤盲のユーザーを支援するために、赤と緑の混乱色を変更します。 |||プロタノープの場合 |||正解: 第二盲|||緑盲のユーザーを支援するために、赤と緑の混乱色を変更します。 |||デュテラノーペの場合 |||正解: 三色盲 |||青盲のユーザーを支援するために、青と黄色の混乱色を変更します。 |||トリタノープの場合 |||ハイコントラスト |||彩度とコントラストを高め、あらゆるディスプレイで色分離を改善します。 |||ユニバーサル |||モノラル ハイ コントラスト |||高コントラストの白黒に変換され、色覚異常ユーザーに最適です。 |||アクロトープ用",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

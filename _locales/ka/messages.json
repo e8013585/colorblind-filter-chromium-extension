@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ფერადი ბრმა ფილტრი",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD ფილტრი",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "იყენებს მეცნიერულად ზუსტ ფერთა ხედვის დეფიციტის სიმულაციას და კორექტირების ფილტრებს ნებისმიერ ვებგვერდზე რეალურ დროში.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "ფერის ფილტრის ჩართვა",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "სიმულაცია",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "შესწორება",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ფილტრის რეჟიმი",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ინტენსივობა",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "გააჩერეთ შესადარებლად",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "გამორთეთ ამ საიტზე",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ამოიღეთ გამონაკლისი |||-ისთვის + __PH_0__ მეტი",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "ამ გაფართოების გაშვება შეუძლებელია ამ გვერდზე.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "სიმულაციური მატრიცები Viénot 1999 და Brettel 1997 კვლევაზე დაფუძნებული.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "სიმულაციური რეჟიმი გვიჩვენებს, თუ როგორ გამოიყურება გვერდი ფერის ხედვის დეფიციტის მქონე ადამიანებისთვის - სასარგებლოა დიზაინერებისთვის, რომლებიც ამოწმებენ მათ მუშაობას. კორექციის რეჟიმი იყენებს დალტონიზაციას დამაბნეველი ფერების დიაპაზონში გადასატანად, რომელთა გარჩევაც დალტონიკი მომხმარებლებს უფრო ადვილად შეუძლიათ.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "წითელ-მწვანე",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ლურჯი-ყვითელი",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "მონოქრომატულობა",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "შესწორება",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "პროტანოპია",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "ახდენს წითელი კონუსის სრული დაკარგვის სიმულაციას (წითელ-ბრმა).",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "მამრობითი სქესის ~1%",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "პროტანომალია",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "ახდენს წითელ-კონუსის შემცირებული მგრძნობელობის სიმულაციას (წითელ-სუსტი).",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "მამრობითი სქესის ~1%",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "დეტერანოპია",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ახდენს მწვანე კონუსის სრული დაკარგვის სიმულაციას (მწვანე-ბრმა).",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "მამრობითი სქესის ~1%",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "დეტერანომალია",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "ახდენს მწვანე კონუსის შემცირებული მგრძნობელობის სიმულაციას, ყველაზე გავრცელებულ ფორმას.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "მამრობითი სქესის ~5%",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "ტრიტანოპია",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "ახდენს ლურჯი კონუსის სრული დაკარგვის სიმულაციას (ლურჯი-ბრმა).",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "ხალხის ~0.01%",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "ტრიტანომალია",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ახდენს ცისფერი კონუსის შემცირებული მგრძნობელობის სიმულაციას (ლურჯი-სუსტი).",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "ხალხის ~0.01%",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "აქრომატოფსია",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ახდენს სრული დალტონიზმის სიმულაციას - აღიქმება მხოლოდ სიკაშკაშე.",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "ხალხის ~0.003%",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "აქრომატომია",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ახდენს ნაწილობრივი დალტონიზმის სიმულაციას ფერთა აღქმის მნიშვნელოვნად შემცირებით.",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "იშვიათი",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "სწორია: პროტანოპია",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ცვლის წითელ-მწვანე დაბნეულ ფერებს, რათა დაეხმაროს წითელ-ბრმა მომხმარებლებს.",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "პროტანოპებისთვის",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "სწორია: Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ცვლის წითელ-მწვანე დაბნეულ ფერებს, რათა დაეხმაროს მწვანე-ბრმა მომხმარებლებს.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "დეიტერანოპებისთვის",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "სწორია: ტრიტანოპია",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ცვლის ლურჯ-ყვითელ დაბნეულ ფერებს, რათა დაეხმაროს ლურჯ-ბრმა მომხმარებლებს.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ტრიტანოპებისთვის",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "მაღალი კონტრასტი",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "აძლიერებს გაჯერებას და კონტრასტს ნებისმიერ ეკრანზე გაუმჯობესებული ფერის განცალკევებისთვის.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "უნივერსალური",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "მონო მაღალი კონტრასტი",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "გარდაიქმნება მაღალი კონტრასტის შავ-თეთრად, იდეალურია აქრომატოფსიის მომხმარებლებისთვის.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "აქრომატოპებისთვის",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

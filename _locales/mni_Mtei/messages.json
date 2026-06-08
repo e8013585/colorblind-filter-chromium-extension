@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ꯀꯂꯔꯕ꯭ꯂꯥꯏꯟꯗ ꯐꯤꯜꯇꯔ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "ꯁꯤ.ꯚꯤ.ꯗꯤ.ꯒꯤ ꯐꯤꯜꯇꯔ",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "ꯁꯥꯏꯟꯇꯤꯐꯤꯛ ꯑꯣꯏꯅꯥ ꯑꯆꯨꯝꯕꯥ ꯀꯂꯔ ꯚꯤꯖꯟ ꯗꯤꯐꯤꯁꯤꯑꯦꯟꯁꯤ ꯁꯤꯃꯨꯂꯦꯁꯟ ꯑꯃꯁꯨꯡ ꯀ꯭ꯔꯤꯀꯦꯁꯟ ꯐꯤꯜꯇꯔꯁꯤꯡ ꯋꯦꯕꯄꯦꯖ ꯑꯃꯍꯦꯛꯇꯗꯥ ꯔꯤꯑꯦꯜ ꯇꯥꯏꯃꯗꯥ ꯑꯦꯞꯂꯥꯏ ꯇꯧꯏ꯫",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "ꯃꯆꯨꯒꯤ ꯐꯤꯜꯇꯔ ꯏꯅꯦꯕꯜ ꯇꯧꯕꯥ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ꯁꯤꯃꯨꯂꯦꯁꯟ ꯇꯧꯕꯥ",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "ꯆꯨꯃꯊꯣꯀꯄꯥ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ꯐꯤꯜꯇꯔ ꯃꯣꯗ",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ꯏꯟꯇꯦꯟꯁꯤꯇꯤ ꯂꯩꯕꯥ",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "ꯆꯥꯡꯗꯝꯅꯕꯥ ꯌꯥꯅꯕꯥ ꯊꯝꯃꯨ",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ꯁꯥꯏꯠ ꯑꯁꯤꯗꯥ ꯗꯤꯁꯦꯕꯜ ꯇꯧꯕꯥ",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "|||ꯒꯤꯗꯃꯛ ꯑꯦꯛꯁꯦꯞꯁꯟ ꯂꯧꯊꯣꯀꯄꯥ꯫ + __PH_0__ ꯍꯦꯟꯅꯥ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "ꯃꯁꯤꯒꯤ ꯑꯦꯛꯁꯇꯦꯟꯁꯟ ꯑꯁꯤ ꯄꯦꯖ ꯑꯁꯤꯗꯥ ꯆꯠꯄꯥ ꯌꯥꯔꯣꯏ꯫",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "ꯚꯤꯑꯦꯅꯣꯠ ꯱꯹꯹꯹ & ꯕ꯭ꯔꯦꯇꯦꯜ ꯱꯹꯹꯷ ꯔꯤꯁꯔꯆꯇꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕꯥ ꯁꯤꯃꯨꯂꯦꯁꯟ ꯃꯦꯠꯔꯤꯀꯁꯤꯡ꯫",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ꯁꯤꯃꯨꯂꯦꯁꯟ ꯃꯣꯗꯅꯥ ꯄꯦꯖ ꯑꯃꯅꯥ ꯃꯆꯨꯒꯤ ꯃꯤꯠꯌꯦꯡꯒꯤ ꯑꯋꯥꯠꯄꯥ ꯂꯩꯕꯥ ꯃꯤꯑꯣꯏ ꯑꯃꯗꯥ ꯀꯔꯝꯅꯥ ꯎꯕꯒꯦ ꯍꯥꯌꯕꯗꯨ ꯎꯠꯂꯤ — ꯃꯈꯣꯌꯒꯤ ꯊꯕꯀꯁꯤꯡ ꯇꯦꯁ꯭ꯠ ꯇꯧꯔꯤꯕꯥ ꯗꯤꯖꯥꯏꯅꯔꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯀꯥꯟꯅꯕꯥ꯫ ꯀꯣꯔꯔꯦꯛꯁꯟ ꯃꯣꯗꯅꯥ ꯀꯂꯔꯕ꯭ꯂꯥꯏꯟꯗ ꯌꯨꯖꯔꯁꯤꯡꯅꯥ ꯍꯦꯟꯅꯥ ꯐꯖꯅꯥ ꯈꯦꯠꯅꯕꯥ ꯌꯥꯕꯥ ꯔꯦꯟꯖꯁꯤꯡꯗꯥ ꯋꯥꯈꯜ ꯋꯥꯕꯥ ꯃꯆꯨꯁꯤꯡ ꯁꯤꯖꯤꯟꯅꯅꯕꯥ ꯗꯥꯂꯇꯣꯅꯥꯏꯖꯦꯁꯟ ꯑꯦꯞꯂꯥꯏ ꯇꯧꯏ꯫",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ꯂꯥꯜ-ꯒ꯭ꯔꯤꯟ",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ꯕ꯭ꯂꯨ-ꯌꯦꯂꯣ",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "ꯃꯣꯅꯣꯛꯔꯣꯃꯦꯁꯤ",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "ꯆꯨꯃꯊꯣꯀꯄꯥ",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "ꯄ꯭ꯔꯣꯇꯥꯅꯣꯄꯤꯌꯥ",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "ꯃꯄꯨꯡꯐꯥꯕꯥ ꯔꯦꯗ-ꯀꯣꯟ ꯂꯣꯁ (ꯔꯦꯗ-ꯕ꯭ꯂꯥꯏꯟꯗ) ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "ꯅꯨꯄꯥꯁꯤꯡꯒꯤ ~꯱%",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "ꯄ꯭ꯔꯣꯇꯥꯅꯣꯃꯦꯂꯤ",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "ꯍꯟꯊꯔꯀꯄꯥ ꯔꯦꯗ-ꯀꯣꯟ ꯁꯦꯟꯁꯤꯇꯤꯕꯤꯇꯤ (ꯔꯦꯗ-ꯋꯤꯛ) ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ꯅꯨꯄꯥꯁꯤꯡꯒꯤ ~꯱%",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "ꯗꯤꯎꯇꯦꯔꯦꯅꯣꯄꯤꯌꯥ",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ꯃꯄꯨꯡ ꯐꯥꯅꯥ ꯒ꯭ꯔꯤꯟ-ꯀꯣꯟ ꯂꯣꯁ (ꯒ꯭ꯔꯤꯟ-ꯕ꯭ꯂꯥꯏꯟꯗ) ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "ꯅꯨꯄꯥꯁꯤꯡꯒꯤ ~꯱%",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "ꯗꯤꯎꯇꯦꯔꯦꯅꯣꯃꯦꯂꯤ",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "ꯈ꯭ꯕꯥꯏꯗꯒꯤ ꯀꯃꯟ ꯑꯣꯏꯕꯥ ꯃꯑꯣꯡ ꯑꯣꯏꯔꯤꯕꯥ ꯒ꯭ꯔꯤꯟ-ꯀꯣꯟ ꯁꯦꯟꯁꯤꯇꯤꯕꯤꯇꯤ ꯍꯟꯊꯔꯀꯄꯥ ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "ꯅꯨꯄꯥꯁꯤꯡꯒꯤ ~꯵%",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "ꯇ꯭ꯔꯤꯇꯥꯅꯣꯄꯤꯌꯥ",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "ꯃꯄꯨꯡ ꯐꯥꯅꯥ ꯕ꯭ꯂꯨ-ꯀꯣꯟ ꯂꯣꯁ (ꯕ꯭ꯂꯨ-ꯕ꯭ꯂꯥꯏꯟꯗ) ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~꯰.꯰꯱% ꯃꯤꯑꯣꯏ",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "ꯇ꯭ꯔꯥꯏꯇꯥꯅꯣꯃꯦꯂꯤ",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ꯍꯟꯊꯔꯀꯄꯥ ꯕ꯭ꯂꯨ-ꯀꯣꯟ ꯁꯦꯟꯁꯤꯇꯤꯕꯤꯇꯤ (ꯕ꯭ꯂꯨ-ꯋꯤꯛ) ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "~꯰.꯰꯱% ꯃꯤꯑꯣꯏ",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "ꯑꯦꯛꯔꯣꯃꯦꯇꯣꯄꯁꯤꯌꯥ",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ꯃꯄꯨꯡꯐꯥꯕꯥ ꯃꯆꯨꯒꯤ ꯕ꯭ꯂꯥꯏꯟꯗꯅꯦꯁ ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ — ꯂꯨꯃꯤꯅꯦꯟꯁ ꯈꯛꯇꯃꯛ ꯈꯪꯏ꯫",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "~꯰.꯰꯰꯳% ꯃꯤꯑꯣꯏ",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "ꯑꯦꯛꯔꯣꯃꯦꯇꯣꯃꯦꯂꯤ",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ꯃꯆꯨꯒꯤ ꯋꯥꯈꯜꯂꯣꯟ ꯌꯥꯝꯅꯥ ꯍꯟꯊꯍꯅꯕꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯄꯥꯔꯁꯤꯑꯦꯜ ꯀꯂꯔ ꯕ꯭ꯂꯥꯏꯟꯗꯅꯦꯁ ꯁꯤꯃꯨꯂꯦꯠ ꯇꯧꯏ꯫",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ꯔꯦꯔꯦ",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "ꯑꯆꯨꯝꯕꯥ: ꯄ꯭ꯔꯣꯇꯥꯅꯣꯄꯤꯌꯥ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ꯔꯦꯗ-ꯕ꯭ꯂꯥꯏꯟꯗ ꯌꯨꯖꯔꯁꯤꯡꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯔꯦꯗ-ꯒ꯭ꯔꯤꯟ ꯀꯟꯐꯤꯎꯁꯟ ꯃꯆꯨꯁꯤꯡ ꯍꯣꯡꯗꯣꯀꯏ꯫",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ꯄ꯭ꯔꯣꯇꯥꯅꯣꯄꯁꯤꯡꯒꯤꯗꯃꯛ",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "ꯑꯆꯨꯝꯕꯥ: ꯗꯤꯎꯇꯦꯔꯦꯅꯣꯄꯤꯌꯥ",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ꯒ꯭ꯔꯤꯟ-ꯕ꯭ꯂꯥꯏꯟꯗ ꯌꯨꯖꯔꯁꯤꯡꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯔꯦꯗ-ꯒ꯭ꯔꯤꯟ ꯀꯟꯐꯤꯎꯁꯟ ꯃꯆꯨꯁꯤꯡ ꯍꯣꯡꯗꯣꯀꯏ꯫",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ꯗꯤꯎꯇꯦꯔꯥꯅꯣꯄꯁꯤꯡꯒꯤꯗꯃꯛ",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ꯑꯆꯨꯝꯕꯥ: ꯇ꯭ꯔꯥꯏꯇꯥꯅꯣꯄꯤꯌꯥ",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ꯕ꯭ꯂꯨ-ꯕ꯭ꯂꯥꯏꯟꯗ ꯌꯨꯖꯔꯁꯤꯡꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯕ꯭ꯂꯨ-ꯌꯦꯂꯣ ꯀꯟꯐꯤꯎꯁꯟ ꯃꯆꯨꯁꯤꯡ ꯍꯣꯡꯗꯣꯀꯏ꯫",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ꯇ꯭ꯔꯤꯇꯥꯅꯣꯄꯁꯤꯡꯒꯤꯗꯃꯛ",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ꯍꯥꯏ ꯀꯟꯠꯔꯁ꯭ꯠ",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "ꯗꯤꯁꯞꯂꯦ ꯑꯃꯍꯦꯛꯇꯗꯥ ꯃꯆꯨꯒꯤ ꯁꯦꯄꯥꯔꯦꯁꯟ ꯐꯒꯠꯍꯟꯅꯕꯒꯤꯗꯃꯛ ꯁꯦꯆꯨꯔꯦꯁꯟ ꯑꯃꯁꯨꯡ ꯀꯟꯠꯔꯁ꯭ꯠ ꯍꯦꯅꯒꯠꯍꯜꯂꯤ꯫",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "ꯌꯨꯅꯤꯚꯔꯁꯦꯜ ꯑꯣꯏꯕꯥ",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "ꯃꯣꯅꯣ ꯍꯥꯏ ꯀꯟꯠꯔꯁ꯭ꯠ",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "ꯑꯦꯛꯔꯣꯃꯥꯇꯣꯄꯁꯤꯌꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯌꯥꯝꯅꯥ ꯐꯕꯥ, ꯍꯥꯏ-ꯀꯟꯠꯔꯁ꯭ꯠ ꯕ꯭ꯂꯦꯛ ꯑꯃꯁꯨꯡ ꯍꯣꯏꯠꯇꯥ ꯑꯣꯟꯊꯣꯀꯏ꯫",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "ꯑꯦꯛꯔꯣꯃꯦꯇꯣꯄꯁꯤꯡꯒꯤꯗꯃꯛ꯫",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

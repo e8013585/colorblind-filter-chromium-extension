@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "रंगअन्ध फ़िल्टर",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "सीवीडी फ़िल्टर",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "वैज्ञानिकरूपेण सटीकं वर्णदृष्टि-अभाव-अनुकरणं तथा च सुधार-छिद्रकं वास्तविकसमये कस्मिन् अपि जालपुटे प्रयोजयति ।",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "वर्ण फ़िल्टर सक्षम",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "अनुकरणम्",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "सुधारः",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "फ़िल्टर मोड",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "तीव्रता",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "तुल्यम् धारयतु",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "अस्मिन् स्थले अक्षमम्",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "अपवादं निष्कासयतु",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 अधिक",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "अयं विस्तारः अस्मिन् पृष्ठे चालयितुं न शक्नोति ।",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Viénot 1999 & Brettel 1997 शोध के आधार पर अनुकरण मैट्रिक्स।",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "अनुकरणविधिः दर्शयति यत् पृष्ठं वर्णदृष्टि-अभावयुक्तस्य कस्यचित् कृते कथं दृश्यते — स्वकार्यस्य परीक्षणं कुर्वतां डिजाइनर-कृते उपयोगी । सुधारविधिः भ्रमितवर्णान् परिधिषु स्थानान्तरयितुं daltonization प्रयोजयति यत् वर्णअन्धप्रयोक्तारः अधिकसुलभतया भेदं कर्तुं शक्नुवन्ति ।",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "लाल-हरिद्रा",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "नील-पीत",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "एकवर्णता",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "सुधारः",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "प्रोटानोपिया",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "सम्पूर्णं रक्तशङ्कुहानिः (लाल-अन्धः) अनुकरणं करोति ।",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~१% पुरुषाः",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "प्रोटानोमाली",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "न्यूनीकृतं रक्त-शङ्कुसंवेदनशीलतां (लाल-दुर्बलम्) अनुकरणं करोति ।",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~१% पुरुषाः",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ड्यूटेरानोपिया",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "सम्पूर्णं हरित-शङ्कुहानिः (हरित-अन्धः) अनुकरणं करोति ।",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~१% पुरुषाः",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "द्वितीयविविधता",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "न्यूनीकृतं हरित-शङ्कुसंवेदनशीलतां अनुकरणं करोति, सर्वाधिकं सामान्यं रूपम् ।",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~५% पुरुषाः",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "त्रितानोपिया",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "सम्पूर्णं नील-शङ्कुहानिः (नील-अन्धः) अनुकरणं करोति ।",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~०.०१% जनानां",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "त्रितानोमाली",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "न्यूनीकृतनील-शङ्कुसंवेदनशीलता (नील-दुर्बल) अनुकरणं करोति ।",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~०.०१% जनानां",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "अक्रोमाटोप्सिया",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "पूर्णवर्णान्धतायाः अनुकरणं करोति — केवलं प्रकाशः एव प्रतीयते ।",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~०.००३% जनानां",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "अक्रोमैटोमाली",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "बहु न्यूनीकृतवर्णबोधेन सह आंशिकवर्णान्धतायाः अनुकरणं करोति ।",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "दुर्लभ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "सही: प्रोटानोपिया",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "रक्त-अन्ध-उपयोक्तृणां सहायार्थं रक्त-हरित-भ्रम-वर्णान् स्थानान्तरयति ।",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "प्रोटानोपानां कृते",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "सही: ड्यूटेरानोपिया",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "हरित-अन्ध-उपयोक्तृणां सहायार्थं रक्त-हरित-भ्रम-वर्णान् स्थानान्तरयति ।",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ड्यूटेरानोपस्य कृते",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "सही: त्रितानोपिया",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "नील-अन्ध-उपयोक्तृणां सहायार्थं नील-पीत-भ्रम-वर्णान् स्थानान्तरयति ।",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "त्रितानोपानां कृते",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "उच्च विपरीतता",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "कस्मिन् अपि प्रदर्शने उन्नतवर्णपृथक्करणाय संतृप्तिं विपरीततां च वर्धयति ।",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "सार्वभौमिक",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "मोनो उच्च विपरीत",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "उच्च-विपरीत-कृष्ण-श्वेतयोः परिवर्तनं करोति, एक्रोमाटोप्सिया-उपयोक्तृणां कृते आदर्शम् ।",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "अक्रोमेटोप्स् कृते",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

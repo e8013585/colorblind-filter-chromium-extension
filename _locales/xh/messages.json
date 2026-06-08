@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Isihluzo se-Colorblind",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Isihluzi seCVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Isebenzisa umlinganiso ochanekileyo ngokwesayensi wombono wombala kunye nezihluzo zolungiso kulo naliphi na iphepha lewebhu ngexesha lokwenyani.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Yenza isihluzi sombala |||| Ukulinganisa || Ulungiso || Imo yokuhluza || Ubunzulu",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Bamba ukuthelekisa",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Khubaza kwesi siza",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Susa ngaphandle kwe",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "+ __PH_0__ ngakumbi",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Olu lwandiso alukwazi ukusebenza kweli phepha.",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Iimatriki zokulinganisa ezisekwe kwiViénot 1999 & Brettel 1997 uphando.",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Imowudi yokulinganisa ibonisa ukuba iphepha lijongeka njani kumntu onengxaki yokubona umbala - iluncedo kubayili abavavanya umsebenzi wabo. Imo yokulungisa isebenzisa i-daltonization yokutshintsha imibala ebhidayo kuluhlu apho abasebenzisi abangaboniyo mbala banokwahlula ngokulula ngakumbi.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Bubomvu-Buluhlaza || Blue-Yellow || I-Monochromacy || Ulungiso || Iprotanopia || Ilinganisa ilahleko epheleleyo yekhoni ebomvu (ibomvu-imfama).",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "~1% yamadoda",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Iprotanomaly",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Ilinganisa uvakalelo oluncitshisiweyo lwekhoni ebomvu (ibomvu-ibuthathaka).",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "~1% yamadoda",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "IDuteronomi || Ilinganisa ilahleko epheleleyo yekoni eluhlaza (luhlaza-imfama).",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "~1% yamadoda",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "IDuteronomi || Ilinganisa ukunciphisa ubuntununtunu bekhoni eluhlaza, eyona ndlela iqhelekileyo.",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~5% yamadoda",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "I-Tritanopia || Ilinganisa ilahleko epheleleyo yeblue-cone (blue-blind).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~0.01% yabantu",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "I-Tritanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Ilinganisa uvakalelo oluncitshisiweyo lweblue-cone (blue-eak).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~0.01% yabantu",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Achromatopsia || Ilinganisa ubumfama bombala obupheleleyo - kukukhanya kuphela okubonwayo.",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "~0.003% yabantu",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Achromatomaly",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Ilinganisa ubumfama bombala obungaphelelanga ngombono oncitshisiweyo wombala.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Inqabileyo |||| Ichanekile: iProtanopia",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Shifts umbala wokubhideka obomvu-luhlaza ukunceda abasebenzisi abangaboni kakuhle.",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Ye protanopes",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Ichanekile: Deuteranopia",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Shifts umbala wokubhideka obomvu-luhlaza ukunceda abasebenzisi abaluhlaza-iimfama.",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Yeedeuteranopes",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Ichanekile: I-Tritanopia",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Shifts imibala yokubhideka eluhlaza okwesibhakabhaka-tyheli ukunceda abasebenzisi abangaboniyo.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Yetritanopes",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Umahluko oPhezulu || Yandisa ukuzaliseka kunye nokuchasana kuphuculo lokwahlulwa kombala nakuwuphi umboniso.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Universal",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Mono High Contrast",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Iguqulela kumchasi ophezulu omnyama nomhlophe, olungele abasebenzisi be-achromatopsia.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Kuba achromatopes",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Shaandheynta midabka indho-la'aanta ah",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Shaandheynta CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Waxay khusaysaa jilidda yaraanta aragga midabka ee cilmi ahaan sax ah iyo filtarrada sixitaanka bog kasta oo dhab ah.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Daar shaandhada midabka",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Jilitaanka",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Sixitaan",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Qaabka shaandhaynta",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "xoojinta",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Ha is barbar dhig",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Dami goobtan",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Ka saar marka laga reebo",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 dheeraad ah",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Kordhintan kuma socon karto boggan.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Xisaabinta jilitaanka ee ku salaysan Viénot 1999 & Brettel 1997 cilmi-baarista.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Qaabka jilitaanka ayaa muujinaya sida boggu ugu eg yahay qof leh yaraanta aragga midabka - faa'iido u leh naqshadeeyayaasha tijaabinaya shaqadooda. Habka sixitaanka ayaa quseeya daltonization si loogu beddelo midabada jahawareerka ah ee kala duwan oo isticmaalayaasha midab-madow ay si fudud u kala saari karaan.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Casaan-Cagaar",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Buluug-Jaalle",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "monochromacy",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Sixitaan",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Wuxuu u ekaysiiyaa luminta koofiyadda cas oo dhammaystiran (casaan-indho la'aan).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~ 1% ragga",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Waxay u ekaysiisaa dareenka koontada cas ee la dhimay (cas-daciif ah).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~ 1% ragga",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Wuxuu u ekaysiiyaa luminta koorta-cagaaran oo dhammaystiran (cagaar-indho la').",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~ 1% ragga",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Waxay u dhigantaa dareenka koontada cagaaran ee la dhimay, qaabka ugu caansan.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% ragga",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Wuxuu u ekaysiiyaa luminta buluug-koonka (buluug-indho la'aanta).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% dadka",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simulates ayaa hoos u dhigay dareenka koontada buluuga ah (buluug-taciif ah).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% dadka",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Achromatopsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Waxay ka dhigan tahay indho la'aanta midabka dhammaystiran - iftiinka kaliya ayaa la arkaa.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% dadka",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Achromatomaly",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Waxay u ekaysiisaa indho la'aanta midabka qayb ahaan iyadoo si weyn loo dhimay aragtida midabka.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "naadir",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Sax: Protanopia || Waxay beddeshaa midabada jahawareer cas-cagaaran si ay u caawiso isticmaalayaasha indhoolayaasha cas.",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "loogu talagalay protanopes",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Sax: Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "U beddelo midabada jahawareer cas-cagaaran si ay u caawiyaan isticmaalayaasha indhoolayaasha cagaaran.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Deuteranopes",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Sax: Tritanopia",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "U beddelo midabada jahawareer buluug-jaalle si ay u caawiyaan isticmaalayaasha buluug-indho la'aanta.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "loogu talagalay tritanopes",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Isbarbardhigga Sare",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Waxay kordhisaa saturation iyo isbarbardhigga kala-soocidda midabka ee la hagaajiyay ee bandhig kasta.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Universal",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Mono High Contrast",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Wuxuu u beddelaa madow iyo caddaan isbarbar dhig sarreeya, oo ku habboon isticmaaleyaasha achromatopsia.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Loogu talagalay achromatopes",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

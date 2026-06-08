@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "د رنګ ړندو فلټر || د CVD فلټر || په ریښتیني وخت کې هرې ویب پاڼې ته د ساینسي پلوه دقیق رنګ لید کمښت سمولیشن او اصلاح فلټرونه پلي کوي.",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "د رنګ فلټر فعال کړئ",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "سمول",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "سمون",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "د فلټر حالت || شدت",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "د پرتله کولو لپاره ونیسئ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "په دې سایټ کې غیر فعال کړئ",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "د",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "لپاره استثنا لرې کړئ + __PH_0__ نور",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "دا توسیع په دې پاڼه کې نشي چلیدلی.",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "د وینټ 1999 او بریټل 1997 څیړنې پراساس سمولیشن میټریکونه.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "سمولیشن موډ ښیې چې یو پاڼه د رنګ لید کمښت سره یو چا ته څنګه ښکاري - د ډیزاینرانو لپاره ګټور چې د دوی کار ازموي. د سمون موډ د ګډوډ رنګونو لړۍ ته د بدلولو لپاره ډیلټونائزیشن پلي کوي چې رنګ ړانده کارونکي په اسانۍ سره توپیر کولی شي.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "سور-شین || نیلي ژیړ || مونوکرومیسی",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "سمون",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "پروتانوپیا",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "د بشپړ سور شنک ضایع (ریډ ړانده) سمول کوي.",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "~1٪ نارینه",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "پروټانومالي",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "د ریډ شنک حساسیت کمول (ریډ کمزوری) سمول کوي.",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~1٪ نارینه",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Deuteranopia",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "د بشپړ شنه شنک ضایع (شنه ړانده) سمبالوي.",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "~1٪ نارینه",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ډیوټرانومالي",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "د شنه شنک حساسیت کمول، تر ټولو عام بڼه.",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "~5٪ نارینه",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "تریتانوپیا || د بشپړ نیلي شنک ضایع (نیلي ړوند) سمول کوي.",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~0.01% خلک",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "ټریټانومالی",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "د کم شوي نیلي شنک حساسیت (نیلي کمزوري) سمول کوي.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~0.01% خلک",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "اکروماټوپسیا || د بشپړ رنګ ړوندوالي انډول کوي - یوازې رڼا درک کیږي.",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~0.003% خلک",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "اکروماتومالي",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "د خورا کم رنګ احساس سره د جزوي رنګ ړوندوالي سمول کوي.",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "نادر",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "سمه: پروتانوپیا || د سور - ړندو کاروونکو سره د مرستې لپاره سور - شنه ګډوډي رنګونه بدلوي.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "د پروټانوپس لپاره || سمه: Deuteranopia || د شنه ړندو کاروونکو سره د مرستې لپاره سور - شنه ګډوډي رنګونه بدلوي.",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "د Deuteranopes لپاره || سمه: تریتانوپیا || د نیلي ړندو کاروونکو سره د مرستې لپاره نیلي - ژیړ ګډوډي رنګونه بدلوي.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "د تریتانوپس لپاره || لوړ توپیر || په هر نندارتون کې د ښه رنګ جلا کولو لپاره سنتریت او برعکس وده کوي.",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "یونیورسل",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "مونو لوړ تضاد || لوړ برعکس تور او سپین ته بدلوي، د اکروماټوپسیا کاروونکو لپاره مثالی.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "د achromatopes لپاره",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

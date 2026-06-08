@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ตัวกรองตาบอดสี",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "ตัวกรอง CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "ใช้การจำลองการมองเห็นสีบกพร่องและตัวกรองการแก้ไขที่แม่นยำทางวิทยาศาสตร์กับหน้าเว็บใดๆ แบบเรียลไทม์",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "เปิดใช้งานฟิลเตอร์สี",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "การจำลอง",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "การแก้ไข",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "โหมดตัวกรอง",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ความเข้ม",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "กดค้างไว้เพื่อเปรียบเทียบ",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ปิดการใช้งานบนเว็บไซต์นี้",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ลบข้อยกเว้นสำหรับ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 เพิ่มเติม",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "ส่วนขยายนี้ไม่สามารถทำงานได้บนหน้านี้",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "เมทริกซ์จำลองจากการวิจัยของ Viénot 1999 และ Brettel 1997",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "โหมดการจำลองจะแสดงลักษณะของหน้าเว็บสำหรับผู้ที่มีปัญหาการมองเห็นสี ซึ่งมีประโยชน์สำหรับนักออกแบบที่ทดสอบงานของพวกเขา โหมดแก้ไขจะใช้ดาลโทไนซ์เพื่อเปลี่ยนสีที่ทำให้เกิดความสับสนไปเป็นช่วงที่ผู้ใช้ที่ตาบอดสีสามารถแยกแยะได้ง่ายขึ้น",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "แดง-เขียว",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "น้ำเงิน-เหลือง",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "สีเดียว",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "การแก้ไข",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "โพรโทเปีย",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "จำลองการสูญเสียกรวยแดงโดยสมบูรณ์ (ตาบอดสีแดง)",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% ของผู้ชาย",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "โปรโตโนมาลี",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "จำลองความไวของกรวยแดงที่ลดลง (สีแดง-อ่อน)",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% ของผู้ชาย",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ดิวเทอเรโนเปีย",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "จำลองการสูญเสียกรวยสีเขียวโดยสมบูรณ์ (ตาบอดสีเขียว)",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% ของผู้ชาย",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "ดิวเทอโรมาลี",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "จำลองความไวของกรวยสีเขียวที่ลดลง ซึ่งเป็นรูปแบบที่พบบ่อยที่สุด",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% ของผู้ชาย",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "สายตาสั้น",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "จำลองการสูญเสียกรวยสีน้ำเงินโดยสมบูรณ์ (ตาบอดสีน้ำเงิน)",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% ของคน",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ไทรทันโนมาลี",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "จำลองความไวของกรวยสีน้ำเงินที่ลดลง (สีน้ำเงินอ่อน)",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% ของคน",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ภาวะไม่มีสี",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "จำลองการตาบอดสีโดยสมบูรณ์ — รับรู้เพียงความสว่างเท่านั้น",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% ของคน",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ความผิดปกติ",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "จำลองการตาบอดสีบางส่วนด้วยการรับรู้สีที่ลดลงอย่างมาก",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "หายาก",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ถูกต้อง: โพรโทเปีย",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "เปลี่ยนสีความสับสนสีแดงสีเขียวเพื่อช่วยเหลือผู้ใช้ที่ตาบอดสีแดง",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "สำหรับโปรทาโนป",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ถูกต้อง: ดิวเทอเรโนเปีย",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "เปลี่ยนสีความสับสนสีแดงเขียวเพื่อช่วยเหลือผู้ใช้ที่ตาบอดเขียว",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "สำหรับดิวเทอราโนป",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ถูกต้อง: ภาวะสายตาเอียง",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "เปลี่ยนสีความสับสนสีน้ำเงิน-เหลืองเพื่อช่วยเหลือผู้ใช้ที่ตาบอดสีน้ำเงิน",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "สำหรับไทรทาโนปส์",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "คอนทราสต์สูง",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "เพิ่มความอิ่มตัวและคอนทราสต์เพื่อการแยกสีที่ดีขึ้นบนจอแสดงผลใดๆ",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "สากล",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "โมโนคอนทราสต์สูง",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "แปลงเป็นขาวดำคอนทราสต์สูง เหมาะสำหรับผู้ใช้ที่ไม่มีสี",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "สำหรับอะโครมาโทป",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

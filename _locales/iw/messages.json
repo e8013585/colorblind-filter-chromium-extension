@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "מסנן עיוור צבעים",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "מסנן CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "מחיל סימולציה ומסנני תיקון של חוסר ראיית צבעים מדויקים מבחינה מדעית על כל דף אינטרנט בזמן אמת.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "אפשר מסנן צבעים",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "סימולציה",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "תיקון",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "מצב סינון",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "עוצמה",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "החזק כדי להשוות",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "השבת באתר זה",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "הסר חריג עבור",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 נוספים",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "לא ניתן להפעיל תוסף זה בדף זה.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "מטריצות סימולציה המבוססות על מחקר Viénot 1999 & Bretel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "מצב סימולציה מראה כיצד דף נראה למישהו עם ליקוי בראיית צבע - שימושי עבור מעצבים הבודקים את עבודתם. מצב תיקון מחיל דלתוניזציה כדי להעביר צבעים מבלבלים לטווחים שמשתמשים עיוורי צבעים יכולים להבחין בהם ביתר קלות.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "אדום-ירוק",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "כחול-צהוב",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "מונוכרומטיה",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "תיקון",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "פרוטנופיה",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "מדמה אובדן מוחלט של חרוט אדום (אדום-עיוור).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% מהגברים",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "פרוטנומליה",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "מדמה רגישות מופחתת לחרוט אדום (אדום-חלש).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% מהגברים",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "דוטרנופיה",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "מדמה איבוד מוחלט של חרוט ירוק (ירוק-עיוור).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% מהגברים",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "דוטרנומליה",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "מדמה רגישות מופחתת לחרוט ירוק, הצורה הנפוצה ביותר.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% מהגברים",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "מדמה איבוד מוחלט של חרוט כחול (כחול-עיוור).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% מהאנשים",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "טריטנומליה",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "מדמה רגישות מופחתת של חרוט כחול (כחול-חלש).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% מהאנשים",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "אכרומטופסיה",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "מדמה עיוורון צבעים מוחלט - רק זוהר נתפס.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% מהאנשים",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "אכרומטומיה",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "מדמה עיוורון צבעים חלקי עם תפיסת צבע מופחתת מאוד.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "נדיר",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "נכון: פרוטנופיה",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "מחליף צבעי בלבול אדום-ירוק כדי לעזור למשתמשים עיוורים אדומים.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "לפרוטנופס ​​||| נכון: Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "משנה צבעי בלבול אדום-ירוק כדי לעזור למשתמשים עיוורים ירוקים.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "לדאוטרנופים",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "נכון: Tritanopia",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "מחליף צבעי בלבול כחול-צהוב כדי לעזור למשתמשים עיוורים כחולים.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "עבור tritanopes",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ניגודיות גבוהה",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "מגביר את הרוויה והניגודיות להפרדת צבעים משופרת בכל תצוגה.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "אוניברסלי",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "מונו ניגודיות גבוהה",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "הופך לשחור ולבן בעל ניגודיות גבוהה, אידיאלי למשתמשי אכרומטופיה.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "לאכרומטופים",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

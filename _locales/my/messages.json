@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Colorblind Filter",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD Filter",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "သိပ္ပံနည်းကျ တိကျသော အရောင်အမြင်ချို့တဲ့မှု သရုပ်ဖော်ခြင်းနှင့် ပြုပြင်ခြင်း စစ်ထုတ်ခြင်းများကို အချိန်နှင့်တပြေးညီ မည်သည့် ဝဘ်စာမျက်နှာတွင်မဆို အသုံးချပါ။",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "အရောင်စစ်ထုတ်ခြင်း",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ဖွင့်ပါ။ သရုပ်သကန်",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "အမှားပြင်",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "စစ်ထုတ်ခြင်းမုဒ်",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ပြင်းထန်မှု",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "နှိုင်းယှဥ်",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ဤဆိုက်",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ပိတ်ပါ။",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "အတွက် ခြွင်းချက် ဖယ်ရှားပါ။ + $1 နောက်ထပ်",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "ဤတိုးချဲ့မှုသည် ဤစာမျက်နှာပေါ်တွင် မလည်ပတ်နိုင်ပါ။",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Viénot 1999 & Brettel 1997 သုတေသနအပေါ် အခြေခံသည့် သရုပ်ဖော်မက်ထရစ်များ။",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "သရုပ်သကန်မုဒ်သည် အရောင်အမြင်အာရုံချို့တဲ့သူတစ်ဦးအား စာမျက်နှာတစ်ခုအား မည်ကဲ့သို့ကြည့်သည်ကို ပြသသည် — ဒီဇိုင်နာများ ၎င်းတို့၏အလုပ်ကို စမ်းသပ်ရန်အတွက် အသုံးဝင်သည်။ အမှားပြင်ဆင်ခြင်းမုဒ်သည် ရှုပ်ထွေးနေသောအရောင်များကို အရောင်ကန်းအသုံးပြုသူများ ပိုမိုလွယ်ကူစွာ ခွဲခြားနိုင်သော အပိုင်းများအဖြစ်သို့ ပြောင်းလဲရန် daltonization ကို အသုံးပြုပါသည်။",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "စိမ်းနီ",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "အပြာ-အဝါ||| Monochromacy",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "အမှားပြင်",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Protanopia",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "ပြီးပြည့်စုံသော အနီပုံးဆုံးရှုံးမှု (အနီ-ကန်း) ကို တုပသည်။",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "အမျိုးသားများ၏ ~1%",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Protanomaly",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "အနီ-ပုံး အာရုံခံနိုင်စွမ်းကို လျှော့ချပေးသည် (အနီရောင်-အားနည်း) ကို တုပသည်။",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "အမျိုးသားများ၏ ~1%",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Deuteranopia",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ပြီးပြည့်စုံသော အစိမ်းရောင်-cone ဆုံးရှုံးမှု (အစိမ်းရောင်-ကန်း) ကို တုပသည်။",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "အမျိုးသားများ၏ ~1%",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Deuteranomaly",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "အသုံးအများဆုံးပုံစံဖြစ်သည့် အစိမ်းရောင်-ကွန်နေး အာရုံခံနိုင်စွမ်းကို လျှော့ချပေးသည်။",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "အမျိုးသားများ၏ ~5%",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Tritanopia",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "ပြီးပြည့်စုံသော blue-cone ဆုံးရှုံးမှု (blue-blind) ကို တုပသည်။",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "လူများ၏ ~0.01%",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Tritanomaly",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "blue-cone sensitivity (အပြာ-အားနည်း) ကို လျှော့ချပေးသည်။",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "လူများ၏ ~0.01%",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Achromatopsia",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ပြီးပြည့်စုံသော အရောင်ကန်းခြင်းကို အတုယူသည် - အလင်းရောင်ကိုသာ ရိပ်မိပါသည်။",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "လူများ၏ ~0.003%",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Achromatomaly",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "အရောင်ရှုမြင်မှုကို အလွန်လျှော့ချခြင်းဖြင့် တစ်စိတ်တစ်ပိုင်း အရောင်ကန်းခြင်းကို တုပသည်။",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ရှားပါး",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "မှန်ကန်မှု- Protanopia",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "အနီ-ကန်းအသုံးပြုသူများကို ကူညီရန်အတွက် အနီရောင်-စိမ်းလန်းသော ရှုပ်ထွေးမှုအရောင်များကို ပြောင်းပေးသည်။",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ပရိုတာနုပ်များအတွက်",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "အမှန်- Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "အစိမ်းရောင်-မျက်မမြင်အသုံးပြုသူများကို ကူညီရန်အတွက် အနီရောင်-စိမ်းလန်းသော ရှုပ်ထွေးမှုအရောင်များကို ပြောင်းပေးသည်။",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "deuteranopes အတွက်",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "မှန်ကန်မှု- Tritanopia",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "အပြာရောင် မျက်စိကန်းအသုံးပြုသူများကို ကူညီရန်အတွက် အပြာရောင်-အဝါရောင် ရှုပ်ထွေးသောအရောင်များကို ပြောင်းပေးသည်။",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "tritanopes အတွက်",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "အလင်းအမှောင်မြင့်မား",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "ပြသမှုတိုင်းတွင် ပိုမိုကောင်းမွန်သော အရောင်ခွဲခြားမှုအတွက် ရွှဲစိုမှုနှင့် ခြားနားမှုကို မြှင့်တင်ပေးသည်။",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "တစ်လောကလုံး",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Mono High Contrast",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Achromatopsia အသုံးပြုသူများအတွက် အထူးသင့်လျော်သော ဆန့်ကျင်ဘက် အဖြူနှင့် အနက်ရောင်သို့ ပြောင်းသည်။",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "achromatopes အတွက်",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

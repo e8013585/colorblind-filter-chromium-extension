@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "වර්ණ අන්ධ පෙරහන",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD පෙරහන",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "විද්‍යාත්මකව නිවැරදි වර්ණ පෙනීමේ ඌනතා අනුකරණය සහ නිවැරදි කිරීමේ පෙරහන් ඕනෑම වෙබ් පිටුවකට තථ්‍ය කාලීනව යොදවයි.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "වර්ණ පෙරහන සබල කරන්න || අනුකරණය",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "නිවැරදි කිරීම",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "පෙරහන් මාදිලිය",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "තීව්‍රතාවය",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "සංසන්දනය කිරීමට අල්ලාගෙන සිටින්න",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "මෙම අඩවියේ අබල කරන්න",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "සඳහා ව්යතිරේක ඉවත් කරන්න || + __PH_0__ තවත්",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "මෙම දිගුව මෙම පිටුවෙහි ධාවනය කළ නොහැක.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Viénot 1999 සහ Brettel 1997 පර්යේෂණ මත පදනම් වූ සමාකරණ න්‍යාස.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "සමාකරණ මාදිලිය වර්ණ පෙනීමේ ඌනතාවයක් ඇති අයෙකුට පිටුවක් පෙනෙන ආකාරය පෙන්වයි - නිර්මාණකරුවන්ට ඔවුන්ගේ වැඩ පරීක්ෂා කිරීම සඳහා ප්‍රයෝජනවත් වේ. වර්ණ අන්ධ පරිශීලකයින්ට වඩාත් පහසුවෙන් වෙන්කර හඳුනාගත හැකි පරාසයන් වෙත ව්‍යාකූල වර්ණ මාරු කිරීම සඳහා නිවැරදි කිරීමේ මාදිලිය daltonization යෙදේ.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "රතු-කොළ",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "නිල්-කහ || ඒකවර්ණත්වය",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "නිවැරදි කිරීම",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Protanopia",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "සම්පූර්ණ රතු-කේතු අලාභය (රතු-අන්ධ) අනුකරණය කරයි.",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "පිරිමින්ගෙන් ~1%",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "අඩු වූ රතු-කේතු සංවේදීතාව (රතු-දුර්වල) අනුකරණය කරයි.",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "පිරිමින්ගෙන් ~1%",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Deuteranopia",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "සම්පූර්ණ හරිත-කේතු අලාභය (කොළ-අන්ධ) අනුකරණය කරයි.",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "පිරිමින්ගෙන් ~1%",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ඩියුටරනොමලි",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "වඩාත් පොදු ස්වරූපය වන හරිත-කේතු සංවේදිතාව අඩු කිරීම අනුකරණය කරයි.",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "පිරිමින්ගෙන් ~5%",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Tritanopia",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "සම්පූර්ණ නිල්-කේතු අලාභය (නිල්-අන්ධ) අනුකරණය කරයි.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "මිනිසුන්ගෙන් ~0.01%",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "අඩු වූ නිල්-කේතු සංවේදීතාව (නිල්-දුර්වල) අනුකරණය කරයි.",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "මිනිසුන්ගෙන් ~0.01%",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ඇක්‍රොමැටොප්සියාව",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "සම්පූර්ණ වර්ණ අන්ධභාවය අනුකරණය කරයි - ආලෝකය පමණක් දැනේ.",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "මිනිසුන්ගෙන් ~0.003%",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "වර්ණදේහ",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "විශාල වශයෙන් අඩු වූ වර්ණ සංජානනය සමඟ අර්ධ වර්ණ අන්ධභාවය අනුකරණය කරයි.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "දුර්ලභ",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "නිවැරදි: Protanopia",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "රතු-අන්ධ පරිශීලකයින්ට උදව් කිරීමට රතු-කොළ ව්‍යාකූල වර්ණ මාරු කරයි.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "protanopes සඳහා",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "නිවැරදි: Deuteranopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "හරිත-අන්ධ පරිශීලකයින්ට උපකාර කිරීමට රතු-කොළ ව්‍යාකූල වර්ණ මාරු කරයි.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "ඩියුටරනෝප් සඳහා || නිවැරදි: Tritanopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "නිල්-අන්ධ පරිශීලකයින්ට උපකාර කිරීමට නිල්-කහ ව්‍යාකූල වර්ණ මාරු කරයි.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ට්‍රයිටනෝප් සඳහා || ඉහළ පරස්පරතාව",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ඕනෑම සංදර්ශකයක වැඩි දියුණු කළ වර්ණ වෙන් කිරීම සඳහා සන්තෘප්තිය සහ ප්‍රතිවිරෝධය වැඩි කරයි.",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "විශ්ව",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Mono High Contrast",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ඉහළ ප්‍රතිවිරුද්ධ කළු සහ සුදු බවට පරිවර්තනය කරයි, achromatopsia භාවිතා කරන්නන් සඳහා වඩාත් සුදුසුය.",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "වර්ණදේහ සඳහා",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

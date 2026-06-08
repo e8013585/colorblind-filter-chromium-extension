@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ሕብሪ ዕዉር ፍልተር",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "ሲቪዲ ፍልተር",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "ብሳይንሳዊ መንገዲ ልክዕ ዝኾነ ሕብራዊ ምርኣይ ሕጽረት ምምሳልን ምእራምን መጽረዪታት ኣብ ዝኾነ መርበብ ሓበሬታ ኣብ ሓቀኛ ግዜ ይትግብር።",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "ናይ ሕብሪ መጽረዪ ኣንቅሕ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ምምሳል",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "መአረምታ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ሞድ ፍልተር",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ጽዓት",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "ንምንጽጻር ሒዝካ",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ኣብዚ መርበብ ሓበሬታ ኣሰናኽል",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ን",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "ዝምልከት ፍሉይነት ኣወግድ + $1 ዝያዳ",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "እዚ ኤክስቴንሽን ኣብዚ ገጽ ክሰርሕ ኣይክእልን እዩ።",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ኣብ Viénot 1999 & Brettel 1997 መጽናዕቲ ዝተመርኮሰ ናይ ምምሳል ማትሪክስ።",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ሞድ ምምሳል ንሓደ ገጽ ንሓደ ሕጽረት ምርኣይ ሕብሪ ዘለዎ ሰብ ከመይ ከም ዝመስል ዘርኢ እዩ — ንዲዛይነራት ስርሖም ዝፍትኑ ጠቓሚ እዩ። ሞድ መአረምታ ዳልቶናይዜሽን ብምትግባር ንዝተደናገሩ ሕብርታት ናብቶም ሕብሪ ዕዉራት ተጠቀምቲ ብቐሊሉ ክፈልይዎ ዝኽእሉ ደረጃታት ንምቕያር ይጥቀመሉ።",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ቀይሕ-ቀጠልያ",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "ሰማያዊ-ብጫ",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "ሞኖክሮማሲ",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "መአረምታ",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "ፕሮታኖፒያ",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "ምሉእ ቀይሕ-ኮን ክሳራ (ቀይሕ-ዓይነ-ስውር) ይመስል።",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% ካብ ደቂ ተባዕትዮ",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "ፕሮታኖማሊ",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "ዝተቐነሰ ቀይሕ-ኮን ተነቃፍነት (ቀይሕ-ድኹም) የመስል።",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% ካብ ደቂ ተባዕትዮ",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ዘዳግም",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "ምሉእ ቀጠልያ-ኮን ክሳራ (ቀጠልያ-ዓይነ-ስውር) ይመስል።",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% ካብ ደቂ ተባዕትዮ",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "ዲዩተራኖማሊ",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "ምጉዳል ቀጠልያ-ኮን ተነቃፍነት ይመስል፣ እቲ ዝበዝሐ ዝውቱር መልክዕ።",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% ካብ ደቂ ተባዕትዮ",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "ትሪታኖፒያ",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "ምሉእ ሰማያዊ-ኮን ክሳራ (ሰማያዊ-ዓይነ-ስውር) ይመስል።",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% ካብ ሰባት",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "ትሪታኖማሊ",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "ዝተቐነሰ ሰማያዊ-ኮን ተነቃፍነት (ሰማያዊ-ድኹም) የመስል።",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% ካብ ሰባት",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ኣክሮማቶፕስያ",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "ምሉእ ሕብሪ ዕውርነት ይመስል — ብርሃን ጥራይ እዩ ዝግለጽ።",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% ካብ ሰባት",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ኣክሮማቶማሊ",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ብዓቢኡ ዝነከየ ናይ ሕብሪ ርድኢት ዘለዎ ከፊላዊ ናይ ሕብሪ ዕውርነት የመስል።",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "ብርቂ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ቅኑዕ: ፕሮታኖፒያ",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ቀይሕ-ቀጠልያ ናይ ምድንጋር ሕብርታት ብምቕያር ቀይሕ-ዓይነ ስዉራን ተጠቀምቲ ይሕግዝ።",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "ንፕሮታኖፕስ",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ቅኑዕ፡ ዲዩቴራኖፒያ",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ቀጠልያ-ዓይነ ስዉራን ተጠቀምቲ ንምሕጋዝ ቀይሕ-ቀጠልያ ናይ ምድንጋር ሕብርታት ይቕይር።",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ንዲዩተራኖፕስ",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ቅኑዕ: ትሪታኖፒያ",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ሰማያዊ-ብጫ ናይ ምድንጋር ሕብርታት ብምቕያር ሰማያዊ-ዓይነ ስዉራን ተጠቀምቲ ይሕግዝ።",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ንትሪታኖፕስ",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "ልዑል ንጽጽር",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "ኣብ ዝኾነ ድስፕሊን ንዝተመሓየሸ ምፍላይ ሕብሪ ንምጽጋብን ንጽጽርን የዕቢ።",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "ኣድማሳዊ",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "ሞኖ ልዑል ንጽጽር",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "ናብ ልዑል ንጽጽር ዘለዎ ጸሊምን ጻዕዳን ይቕየር፣ ንተጠቀምቲ ኣክሮማቶፕስያ ምቹእ እዩ።",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "ንኣክሮማቶፕስ ዝኸውን",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

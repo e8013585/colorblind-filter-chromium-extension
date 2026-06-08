@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "రంగు బ్లైండ్ ఫిల్టర్ || CVD ఫిల్టర్ || నిజ సమయంలో ఏదైనా వెబ్‌పేజీకి శాస్త్రీయంగా ఖచ్చితమైన రంగు దృష్టి లోపం అనుకరణ మరియు దిద్దుబాటు ఫిల్టర్‌లను వర్తింపజేస్తుంది.",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "రంగు ఫిల్టర్‌ని ప్రారంభించు || అనుకరణ || దిద్దుబాటు || ఫిల్టర్ మోడ్ || తీవ్రత || పోల్చడానికి పట్టుకోండి || ఈ సైట్‌లో ఆపివేయి || కోసం మినహాయింపును తీసివేయండి || + __PH_0__ మరిన్ని || ఈ పొడిగింపు ఈ పేజీలో అమలు చేయబడదు.",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Viénot 1999 & Brettel 1997 పరిశోధన ఆధారంగా అనుకరణ మాత్రికలు.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "వర్ణ దృష్టి లోపం ఉన్నవారికి పేజీ ఎలా కనిపిస్తుందో అనుకరణ మోడ్ చూపిస్తుంది — డిజైనర్‌లు తమ పనిని పరీక్షించుకోవడానికి ఉపయోగపడుతుంది. దిద్దుబాటు మోడ్ గందరగోళంగా ఉన్న రంగులను రంగు అంధ వినియోగదారులు మరింత సులభంగా గుర్తించగలిగే పరిధుల్లోకి మార్చడానికి డాల్టోనైజేషన్‌ని వర్తింపజేస్తుంది.",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ఎరుపు-ఆకుపచ్చ || నీలం-పసుపు || మోనోక్రోమసీ || దిద్దుబాటు || ప్రొటానోపియా || పూర్తి రెడ్-కోన్ నష్టాన్ని (రెడ్-బ్లైండ్) అనుకరిస్తుంది.",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "మగవారిలో ~1% || ప్రొటానోమలీ || తగ్గిన రెడ్-కోన్ సెన్సిటివిటీని (ఎరుపు-బలహీనంగా) అనుకరిస్తుంది.",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "మగవారిలో ~1% || డ్యూటెరానోపియా || పూర్తి ఆకుపచ్చ-కోన్ నష్టాన్ని (గ్రీన్-బ్లైండ్) అనుకరిస్తుంది.",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "మగవారిలో ~1% || డ్యూటెరానోమలీ || తగ్గిన ఆకుపచ్చ-కోన్ సున్నితత్వాన్ని అనుకరిస్తుంది, ఇది అత్యంత సాధారణ రూపం.",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "~5% పురుషులు || ట్రైటానోపియా || పూర్తి బ్లూ-కోన్ నష్టాన్ని (బ్లూ-బ్లైండ్) అనుకరిస్తుంది.",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "~0.01% మంది ప్రజలు || ట్రిటానోమలీ || తగ్గిన బ్లూ-కోన్ సెన్సిటివిటీని (నీలం-బలహీనంగా) అనుకరిస్తుంది.",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "~0.01% మంది ప్రజలు || అక్రోమాటోప్సియా || పూర్తి వర్ణాంధత్వాన్ని అనుకరిస్తుంది - ప్రకాశం మాత్రమే గ్రహించబడుతుంది.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "~0.003% మంది ప్రజలు || అక్రోమటోమలీ || బాగా తగ్గిన వర్ణ అవగాహనతో పాక్షిక వర్ణాంధత్వాన్ని అనుకరిస్తుంది.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "అరుదైన || సరైనది: ప్రోటానోపియా || ఎరుపు-అంధులైన వినియోగదారులకు సహాయం చేయడానికి ఎరుపు-ఆకుపచ్చ గందరగోళ రంగులను మారుస్తుంది.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ప్రోటానోప్‌ల కోసం || సరైనది: డ్యూటెరానోపియా || ఆకుపచ్చ అంధ వినియోగదారులకు సహాయం చేయడానికి ఎరుపు-ఆకుపచ్చ గందరగోళ రంగులను మారుస్తుంది.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "డ్యూటెరానోప్స్ కోసం || సరైనది: ట్రిటానోపియా || బ్లూ-బ్లైండ్ వినియోగదారులకు సహాయం చేయడానికి నీలం-పసుపు గందరగోళ రంగులను మారుస్తుంది.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ట్రైటానోప్స్ కోసం || అధిక కాంట్రాస్ట్ || ఏదైనా డిస్‌ప్లేలో మెరుగైన రంగు విభజన కోసం సంతృప్తతను మరియు కాంట్రాస్ట్‌ను పెంచుతుంది.",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "యూనివర్సల్ || మోనో హై కాంట్రాస్ట్ || అధిక-కాంట్రాస్ట్ నలుపు మరియు తెలుపుకు మారుస్తుంది, అక్రోమాటోప్సియా వినియోగదారులకు అనువైనది.",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "అక్రోమాటోప్‌ల కోసం",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "קאָלאָרבלינד פילטער",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD פילטער",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "אַפּלייז סייאַנטיפיקלי פּינטלעך סימיאַליישאַן און קערעקשאַן פילטערס פֿאַר קאָליר זעאונג דיפישאַנסי אויף קיין וועבזייטל אין פאַקטיש צייט.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "געבן קאָליר פילטער",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "סימיאַליישאַן",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "קערעקשאַן",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "פילטער מאָדע",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ינטענסיטי",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "האַלטן צו פאַרגלייַכן",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "דיסייבאַל אויף דעם פּלאַץ",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "אַראָפּנעמען ויסנעם פֿאַר",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 מער",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "די פאַרלענגערונג קען נישט לויפן אויף דעם בלאַט.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "סימיאַליישאַן מאַטריץ באזירט אויף Viénot 1999 & Brettel 1997 פאָרשונג.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "סימיאַליישאַן מאָדע ווייזט ווי אַ בלאַט קוקט צו עמעצער מיט אַ קאָליר זעאונג דיפישאַנסי - נוציק פֿאַר דיזיינערז טעסטינג זייער אַרבעט. קאָררעקטיאָן מאָדע אַפּלייז דאַלטאָניזאַטיאָן צו יבעררוק קאַנפיוזינג פארבן אין ריינדזשאַז אַז קאָלאָרבלינד ניצערס קענען מער לייכט ויסטיילן.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "רויט-גרין",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "בלוי-געל",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "מאָנאָטשראָמאַסי",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "קערעקשאַן",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "פּראָטאַנאָפּיאַ",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "סימיאַלייץ גאַנץ רויט-שישקע אָנווער (רויט-בלינד).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% פון מאַלעס",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "פּראָטאַנאָמאַלי",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "סימיאַלייץ רידוסט רויט שישקע סענסיטיוויטי (רויט-שוואַך).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% פון מאַלעס",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "דעוטעראַנאָפּיאַ",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "סימיאַלייץ גאַנץ גרין שישקע אָנווער (גרין-בלינד).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% פון מאַלעס",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "דעוטעראַנאָמאַלי",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "סימיאַלייץ רידוסט גרין שישקע סענסיטיוויטי, די מערסט פּראָסט פאָרעם.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% פון מאַלעס",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "טריטאַנאָפּיאַ",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "סימיאַלייץ גאַנץ בלוי-שישקע אָנווער (בלוי-בלינד).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% פון מענטשן",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "טריטאַנאָמאַלי",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "סימיאַלייץ רידוסט בלוי שישקע סענסיטיוויטי (בלוי-שוואַך).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% פון מענטשן",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "אַטשראָמאַטאָפּסיאַ",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "סימיאַלייץ גאַנץ קאָליר בלינדקייט - בלויז לומאַנאַנס איז באמערקט.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% פון מענטשן",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "אַטשראָמאַטאָמאַלי",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "סימיאַלייץ פּאַרטיייש קאָליר בלינדקייט מיט זייער רידוסט קאָליר מערקונג.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "זעלטן",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ריכטיק: פּראָטאַנאָפּיאַ",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "שיפץ רויט-גרין צעמישונג פארבן צו העלפן רויט-בלינד ניצערס.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "פֿאַר פּראָטאַנאָפּעס",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ריכטיק: דעוטעראַנאָפּיאַ",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "שיפץ רויט-גרין צעמישונג פארבן צו העלפן גרין-בלינד ניצערס.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "פֿאַר דעוטעראַנאָפּעס",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ריכטיק: טריטאַנאָפּיאַ",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "שיפץ בלוי-געל צעמישונג פארבן צו העלפֿן בלוי-בלינד ניצערס.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "פֿאַר טריטאַנאָפּעס",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "הויך קאַנטראַסט",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "בוסץ זעטיקונג און קאַנטראַסט פֿאַר ימפּרוווד קאָליר צעשיידונג אויף קיין אַרויסווייַזן.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "וניווערסאַל",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "מאָנאָ הויך קאַנטראַסט",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "קאַנווערץ צו הויך-קאַנטראַסט שוואַרץ און ווייַס, ידעאַל פֿאַר אַטשראָמאַטאָפּסיאַ ניצערס.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "פֿאַר אַטשראָמאַטאָפּעס",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}
