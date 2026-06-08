@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "فیلتر کور رنگ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "فیلتر CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "شبیه سازی و فیلترهای تصحیح کمبود دید رنگ از نظر علمی دقیق در هر صفحه وب در زمان واقعی اعمال می کند.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "فعال کردن فیلتر رنگ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "شبیه سازی",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "تصحیح",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "حالت فیلتر",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "شدت",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "برای مقایسه نگه دارید",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "غیر فعال کردن در این سایت",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "حذف استثنا برای",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 بیشتر",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "این برنامه افزودنی نمی تواند در این صفحه اجرا شود.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ماتریس های شبیه سازی بر اساس تحقیقات Viénot 1999 و Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "حالت شبیه‌سازی نشان می‌دهد که چگونه یک صفحه برای فردی با کمبود دید رنگی به نظر می‌رسد - برای طراحانی که کارشان را آزمایش می‌کنند مفید است. حالت تصحیح، دالتونیزاسیون را برای تغییر رنگ‌های گیج‌کننده به محدوده‌هایی اعمال می‌کند که کاربران کوررنگ راحت‌تر می‌توانند تشخیص دهند.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "قرمز-سبز",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "آبی-زرد",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "تک رنگ",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "تصحیح",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "پروتانوپیا",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "شبیه سازی از دست دادن کامل مخروط قرمز (قرمز کور).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1٪ از مردان",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "پروتانومالی",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "کاهش حساسیت مخروطی قرمز (قرمز-ضعیف) را شبیه سازی می کند.",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1٪ از مردان",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "دوترانوپیا",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "شبیه سازی از دست دادن کامل مخروط سبز (سبز کور).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1٪ از مردان",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "دوترانومالی",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "شبیه سازی کاهش حساسیت مخروط سبز، رایج ترین شکل.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% از مردان",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "تریتانوپیا",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "شبیه سازی از دست دادن کامل مخروط آبی (آبی کور).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% مردم",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "تریتانومالی",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "کاهش حساسیت مخروطی آبی (آبی-ضعیف) را شبیه سازی می کند.",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% مردم",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "آکروماتوپسی",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "کوررنگی کامل را شبیه سازی می کند - فقط درخشندگی درک می شود.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% مردم",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "آکروماتومالی",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "کوررنگی جزئی را با کاهش شدید درک رنگ شبیه سازی می کند.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "نادر",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "درست: پروتانوپیا",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "رنگ های سردرگم قرمز-سبز را برای کمک به کاربران نابینای قرمز تغییر می دهد.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "برای پروتانوپ ها",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "صحیح: دوترانوپیا",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "رنگ‌های سردرگم قرمز-سبز را برای کمک به کاربران نابینای سبز تغییر می‌دهد.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "برای دوترانوپ",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "درست: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "رنگ های سردرگم آبی-زرد را برای کمک به کاربران نابینای آبی تغییر می دهد.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "برای تریتانوپ",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "کنتراست بالا",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "اشباع و کنتراست را برای بهبود تفکیک رنگ در هر صفحه نمایش افزایش می دهد.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "جهانی",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "مونو کنتراست بالا",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "تبدیل به سیاه و سفید با کنتراست بالا، ایده آل برای کاربران آکروماتوپسی.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "برای آکروماتوپ ها",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

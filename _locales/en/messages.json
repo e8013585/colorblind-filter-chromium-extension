@@ -1,0 +1,259 @@
+{
+  "extensionName": {
+    "message": "Colorblind Filter",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD Filter",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Applies scientifically accurate color vision deficiency simulation and correction filters to any webpage in real time.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+
+  "masterToggleLabel": {
+    "message": "Enable color filter",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulation",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Correction",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Filter mode",
+    "description": "Accessible label for the mode tab list."
+  },
+
+  "intensityLabel": {
+    "message": "Intensity",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Hold to compare",
+    "description": "Text on the quick compare button."
+  },
+
+  "disableOnSiteLabel": {
+    "message": "Disable on this site",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Remove exception for",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 more",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+
+  "notAvailableOnPage": {
+    "message": "This extension cannot run on this page.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+
+  "filterSourceNote": {
+    "message": "Simulation matrices based on Viénot 1999 & Brettel 1997 research.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Simulation mode shows how a page looks to someone with a color vision deficiency — useful for designers testing their work. Correction mode applies daltonization to shift confusing colors into ranges that colorblind users can more easily distinguish.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+
+  "categoryRedGreen": {
+    "message": "Red-Green",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Blue-Yellow",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monochromacy",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Correction",
+    "description": "Category label for daltonization correction filters."
+  },
+
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Simulates complete red-cone loss (red-blind).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% of males",
+    "description": "Prevalence of protanopia."
+  },
+
+  "filterProtanomalyName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Simulates reduced red-cone sensitivity (red-weak).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% of males",
+    "description": "Prevalence of protanomaly."
+  },
+
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Simulates complete green-cone loss (green-blind).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% of males",
+    "description": "Prevalence of deuteranopia."
+  },
+
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Simulates reduced green-cone sensitivity, the most common form.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% of males",
+    "description": "Prevalence of deuteranomaly."
+  },
+
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Simulates complete blue-cone loss (blue-blind).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% of people",
+    "description": "Prevalence of tritanopia."
+  },
+
+  "filterTritanomalyName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simulates reduced blue-cone sensitivity (blue-weak).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% of people",
+    "description": "Prevalence of tritanomaly."
+  },
+
+  "filterAchromatopsiaName": {
+    "message": "Achromatopsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Simulates complete color blindness — only luminance is perceived.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% of people",
+    "description": "Prevalence of achromatopsia."
+  },
+
+  "filterAchromatomalyName": {
+    "message": "Achromatomaly",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Simulates partial color blindness with greatly reduced color perception.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Rare",
+    "description": "Prevalence of achromatomaly."
+  },
+
+  "filterProtanopiaCorrName": {
+    "message": "Correct: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Shifts red-green confusion colors to help red-blind users.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "For protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+
+  "filterDeuteranopiaCorrName": {
+    "message": "Correct: Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Shifts red-green confusion colors to help green-blind users.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "For deuteranopes",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+
+  "filterTritanopiaCorrName": {
+    "message": "Correct: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Shifts blue-yellow confusion colors to help blue-blind users.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "For tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+
+  "filterHighContrastName": {
+    "message": "High Contrast",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Boosts saturation and contrast for improved color separation on any display.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universal",
+    "description": "Target audience for the high contrast filter."
+  },
+
+  "filterMonochromeContrastName": {
+    "message": "Mono High Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Converts to high-contrast black and white, ideal for achromatopsia users.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "For achromatopes",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

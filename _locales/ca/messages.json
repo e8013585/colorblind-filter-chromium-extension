@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filtre daltònic",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Filtre CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Aplica filtres de correcció i simulació de deficiència de visió del color científicament precisos a qualsevol pàgina web en temps real.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Activa el filtre de color",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulació",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Correcció",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Mode de filtre",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Intensitat",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Mantén premut per comparar",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Desactiva en aquest lloc",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Elimina l'excepció per a",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 més",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Aquesta extensió no es pot executar en aquesta pàgina.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Matrius de simulació basades en la recerca de Viénot 1999 i Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "El mode de simulació mostra com es veu una pàgina per a algú amb una deficiència de visió del color, útil per als dissenyadors que posen a prova el seu treball. El mode de correcció aplica la daltonització per canviar els colors confusos a intervals que els usuaris daltònics poden distingir més fàcilment.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Vermell-verd",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Blau-groc",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monocromàcia",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Correcció",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Simula la pèrdua completa del con vermell (cec vermell).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% dels homes",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomalia",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Simula una sensibilitat reduïda del con vermell (vermell-feble).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% dels homes",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Simula la pèrdua completa del con verd (verd-cec).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% dels homes",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomalia",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Simula una sensibilitat reduïda del con verd, la forma més comuna.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% dels mascles",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Simula la pèrdua completa del con blau (blau-cec).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0,01% de la gent",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomalia",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simula una sensibilitat reduïda del con blau (blau-feble).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0,01% de la gent",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Acromatòpsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Simula el daltonisme total: només es percep la luminància.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0,003% de les persones",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Acromatomalia",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Simula el daltonisme parcial amb una percepció del color molt reduïda.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Rar",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Correcte: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Canvia els colors de confusió vermell-verd per ajudar els usuaris cecs.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Per protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Correcte: Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Canvia els colors de confusió vermell-verd per ajudar els usuaris amb verd cec.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Per a deuterànops",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Correcte: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Canvia els colors de confusió blau-groc per ajudar els usuaris amb cecs blaus.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Per a tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Alt contrast",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Augmenta la saturació i el contrast per millorar la separació del color en qualsevol pantalla.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universal",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono Alt Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Es converteix en blanc i negre d'alt contrast, ideal per a usuaris d'acromatòpsia.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Per als acromatopes",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

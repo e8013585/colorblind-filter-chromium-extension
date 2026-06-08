@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Colorblind ukax mä filtro",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD Filtro ukax",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Simulación de deficiencia de visión de colores científicamente chiqapa ukhamaraki filtros de corrección ukanakampi kuna web ukanakaru chiqapa pachana apnaqaraki.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Saminakan filtro ukar ch’amanchaña",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulación ukax",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Chiqapa luraña",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Uka filtro modalidad",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Intensidad ukaxa",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Uñakipt’añatakix katxaruñamawa",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Aka sitio ukanx jan ch’amanchaña",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Uka excepción ukaxa",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 juk’ampi",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Aka extensión ukax janiw aka pankanx apnaqañjamakiti.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Matrizes de simulación ukaxa Viénot 1999 & Brettel 1997 yatxatawimpi luratawa.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Modo de simulación ukax kunjams mä pankax khitirus colores vision deficiencia ukan uñtasi uk uñacht’ayi — diseñadores ukanakatakix lurawinakap yant’añatakix wali askiwa. Modo de corrección ukax daltonización ukaruw apnaqi, jan walt’ayir saminakar mayjt’ayañataki, ukax rangos ukar mayjt’ayañataki, ukax colorblind ukankirinakax juk’amp jasakiw yaqhachasipxaspa.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Wila-Ch’uxña",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Ch’uxña-Q’illu",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monocromacia ukaxa",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Chiqapa luraña",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia ukaxa",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Simula taqpach wila-cono chhaqhata (wila-juykhu).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% chacha warminaka",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomalia ukaxa",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Simula reducida sensibilidad de cono rojo (wila-jan ch’amani).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% chacha warminaka",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia ukaxa",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Simula taqpach ch’uxña-cono chhaqhata (ch’uxña-juykhu).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% chacha warminaka",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomal ukata",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Simula reducida sensibilidad verde-cono, ukaxa juk’ampi uñt’atawa.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% chacha warminaka",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia ukaxa",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Simula taqpach ch’uxña-cono chhaqhata (azul-juykhu).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% jaqinakawa",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomía ukaxa",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simula reducida sensibilidad azul-cono (azul-jan ch’amani).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% jaqinakawa",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Acromatopsia ukaxa",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Simula completa juykhu color — ukax luminancia ukakiw amuyasi.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% jaqinakax",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Acromatomal ukaxa",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Simula parcial color blindness ukampi wali jisk’achata color percepción ukampi.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Ukax mä juk’a",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Chiqapa: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Wila-ch’uxña jan walt’awinak mayjt’ayi, wila-juykhu apnaqirinakar yanapt’añataki.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Protanopos ukanakatakixa",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Chiqapa: Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Wila-ch’uxña jan walt’awinak mayjt’ayi, ch’uxña-juykhu apnaqirinakar yanapt’añataki.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Uka deuteranopes ukanakataki",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Chiqapa: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Ch’uxña-q’illu jan walt’awinak mayjt’ayi, ch’uxña-juykhu apnaqirinakar yanapt’añataki.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Tritanopes ukanakatakixa",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Jach’a Contraste",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Saturación ukat contraste ukanak ch’amancharaki kuna uñacht’äwins colores ukanakax juk’amp suma jaljañataki.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universal",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono Jach’a Contraste",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Ch’iyara janq’u jach’a contraste ukar jaqukipatawa, acromatopsia apnaqirinakatakix wali askiwa.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Acromatopos ukanakataki",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

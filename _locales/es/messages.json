@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filtro daltónico",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Filtro CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Aplica filtros de corrección y simulación de deficiencia de visión del color científicamente precisos a cualquier página web en tiempo real.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Habilitar filtro de color",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulación",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Corrección",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Modo de filtro",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Intensidad",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Mantenga presionado para comparar",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Deshabilitar en este sitio",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Eliminar excepción para",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 más",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Esta extensión no se puede ejecutar en esta página.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Matrices de simulación basadas en investigaciones de Viénot 1999 y Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "El modo de simulación muestra cómo ve una página alguien con una deficiencia en la visión del color, lo que resulta útil para los diseñadores que prueban su trabajo. El modo de corrección aplica daltonización para cambiar los colores confusos a rangos que los usuarios daltónicos pueden distinguir más fácilmente.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Rojo-Verde",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Azul-amarillo",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monocromía",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Corrección",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopía",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Simula la pérdida completa del cono rojo (ciego al rojo).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% de los hombres",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomalía",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Simula la sensibilidad reducida del cono rojo (rojo débil).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% de los hombres",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopía",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Simula la pérdida completa del cono verde (verde-ciego).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% de los hombres",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomalía",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Simula la sensibilidad reducida del cono verde, la forma más común.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% de los hombres",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopía",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Simula la pérdida completa del cono azul (ciego azul).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0,01% de las personas",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomalía",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simula la sensibilidad reducida del cono azul (azul débil).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0,01% de las personas",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Acromatopsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Simula un daltonismo total: sólo se percibe la luminancia.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0,003% de las personas",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Acromatomalia",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Simula el daltonismo parcial con una percepción del color muy reducida.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Raro",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Correcto: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Cambia los colores de confusión rojo-verde para ayudar a los usuarios daltónicos.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Para protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Correcto: Deuteranopía",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Cambia los colores de confusión rojo-verde para ayudar a los usuarios ciegos al verde.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Para deuteranopes",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Correcto: Tritanopía",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Cambia los colores de confusión azul-amarillo para ayudar a los usuarios con ceguera azul.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Para tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Alto contraste",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Aumenta la saturación y el contraste para mejorar la separación de colores en cualquier pantalla.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "universales",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Monocromo de alto contraste",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Convierte a blanco y negro de alto contraste, ideal para usuarios de acromatopsia.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Para acromatopos",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

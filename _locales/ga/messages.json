@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Scagaire Dath-dall || Scagaire CVD || Cuireann sé scagairí ionsamhlúcháin agus ceartúcháin easpa fís datha atá cruinn go heolaíoch i bhfeidhm ar aon leathanach gréasáin i bhfíor-am. || Cumasaigh an scagaire datha || Insamhladh || Ceartú || Modh scagairí || Déine || Coinnigh chun comparáid a dhéanamh || Díchumasaigh ar an suíomh seo || Bain eisceacht do || + __PH_0__ níos || Ní féidir leis an iarmhír seo rith ar an leathanach seo. || Maitrísí ionsamhlúcháin bunaithe ar thaighde Viénot 1999 & Brettel 1997. || Léiríonn mód ionsamhlúcháin conas a bhreathnaíonn leathanach ar dhuine éigin a bhfuil easnamh fís datha air – úsáideach do dhearthóirí a dhéanann tástáil ar a gcuid oibre. Baineann modh ceartúcháin le daltonization chun dathanna mearbhall a aistriú go raonta ar féidir le húsáideoirí dall-dall idirdhealú a dhéanamh orthu ar bhealach níos éasca. || Dearg-Glas || Gorm-Buí || Monacrómatacht || Ceartú || Prótanóip || Insamhladh caillteanas cón dearg iomlán (dearg-dall). || ~1% d'fhir || Protanomaly || Insamhladh íogaireacht laghdaithe-chón dearg (dearg-lag). || ~1% d'fhir || Deotranopia || Insamhladh caillteanas iomlán glas-cón (glas-dall). || ~1% d'fhir || Deuteranomaly || Insamhladh íogaireacht glas-cón laghdaithe, an fhoirm is coitianta. || ~5 % d'fhir || Tritanopia || Insamhladh ar chaillteanas iomlán cón gorm (gorm-dall). || ~0.01 % de na daoine || Tritanomaly || Insamhladh íogaireacht laghdaithe cón gorm (gorm-lag). || ~0.01 % de na daoine || Achromatopsia || Insamhladh daille dath iomlán - ní bhraitear ach luminance. || ~0.003 % de na daoine || Achromatomaly || Insamhladh daille datha pháirteach agus braistint dath laghdaithe go mór. || Uathúla || Ceart: Protanopia || Aistríonn dathanna mearbhaill dearg-uaine chun cabhrú le húsáideoirí dearg-dall. || Maidir le prótanóipí || Ceart: Deotranopia || Aistríonn dathanna mearbhaill dearg-uaine chun cabhrú le húsáideoirí glas-dall. || I gcás deuteranopes || Ceart: Tritanopia || Aistríonn dathanna mearbhall gorm-buí chun cabhrú le húsáideoirí gorm-dall. || Le haghaidh tritanóip || Codarsnacht Ard || Méadaíonn sé sáithiú agus codarsnacht le haghaidh scaradh dath feabhsaithe ar aon taispeáint. || Uilíoch || Ardchodarsnacht Mona || Athraíonn sé go dubh agus bán ardchodarsnachta, atá oiriúnach d'úsáideoirí achromatopsia. || Le haghaidh achromatopes",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

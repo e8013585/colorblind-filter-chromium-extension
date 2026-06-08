@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "የቀለም ዕውር ማጣሪያ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "የሲቪዲ ማጣሪያ",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "በማንኛውም ድረ-ገጽ ላይ በሳይንስ ትክክለኛ የሆነ የቀለም እይታ ጉድለት ማስመሰል እና ማስተካከያ ማጣሪያዎችን በቅጽበት ይተገበራል።",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "የቀለም ማጣሪያን አንቃ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ማስመሰል",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "እርማት",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "የማጣሪያ ሁነታ",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "ጥንካሬ",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "ለማነፃፀር ይያዙ || በዚህ ጣቢያ ላይ አሰናክል",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "ለ",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "ልዩ ሁኔታዎችን አስወግድ + __PH_0__ ተጨማሪ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "ይህ ቅጥያ በዚህ ገጽ ላይ ሊሄድ አይችልም።",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "በVénot 1999 & Brettel 1997 ምርምር ላይ የተመሰረተ የማስመሰል ማትሪክስ።",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "የማስመሰል ሁነታ አንድ ገጽ የቀለም እይታ እጥረት ላለው ሰው እንዴት እንደሚታይ ያሳያል - ለዲዛይነሮች ስራቸውን ለመፈተሽ ይጠቅማል። የማስተካከል ሁነታ ዳልቶናይዜሽን ተፈጻሚ ሲሆን ግራ የሚያጋቡ ቀለሞችን ቀለም ዓይነ ስውር ተጠቃሚዎች በቀላሉ ሊለዩዋቸው ወደሚችሉ ክልሎች ለመቀየር።",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ቀይ-አረንጓዴ",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "ሰማያዊ-ቢጫ",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "monochromacy",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "እርማት",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "ፕሮታኖፒያ",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "ሙሉ በሙሉ የቀይ-ኮን መጥፋት (ቀይ-ዓይነ ስውር) ያስመስላል።",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "~ 1% ወንዶች",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "ፕሮታኖማሊ",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "የተቀነሰ የቀይ-ኮን ስሜታዊነት (ቀይ-ደካማ) ያስመስላል።",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~ 1% ወንዶች",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Deuteranopia",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "ሙሉ አረንጓዴ-ኮን መጥፋትን (አረንጓዴ-ዕውር) ያስመስላል።",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "~ 1% ወንዶች",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Deuteranomaly",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "በጣም የተለመደውን የአረንጓዴ-ኮን ስሜታዊነት ይቀንሳል።",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "~5% ወንዶች",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Tritanopia",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "ሙሉ ሰማያዊ-ኮን መጥፋትን (ሰማያዊ-ዕውር) ያስመስላል።",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~0.01% ሰዎች",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "ትሪታኖማሊ",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "የተቀነሰ ሰማያዊ-ኮን ትብነት (ሰማያዊ-ደካማ) ያስመስላል።",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "~0.01% ሰዎች",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Achromatopsia",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ሙሉ የቀለም ዓይነ ስውርነትን ያስመስላል - ብርሃን ብቻ ነው የሚታወቀው።",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "~0.003% ሰዎች",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Achromatomaly",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ከፊል የቀለም ዓይነ ስውርነትን በከፍተኛ ሁኔታ የቀነሰ የቀለም ግንዛቤን ያስመስላል።",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "ብርቅ",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "ትክክል፡ ፕሮታኖፒያ",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ቀይ-ዓይነ ስውር ተጠቃሚዎችን ለመርዳት ቀይ-አረንጓዴ ግራ መጋባት ቀለሞችን ይቀይራል።",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ለፕሮታኖፔስ",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "ትክክል፡ Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "አረንጓዴ-ዓይነ ስውራን ተጠቃሚዎችን ለመርዳት ቀይ-አረንጓዴ ግራ መጋባት ቀለሞችን ይቀይራል።",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ለዲዩተራኖፔስ",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "ትክክል፡ ትሪታኖፒያ",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ሰማያዊ-ዕውር ተጠቃሚዎችን ለመርዳት ሰማያዊ-ቢጫ ግራ መጋባት ቀለሞችን ይቀይራል።",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ለ tritanopes",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "ከፍተኛ ንፅፅር",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "በማንኛውም ማሳያ ላይ ለተሻሻለ የቀለም መለያየት ሙሌት እና ንፅፅርን ያሳድጋል።",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "ሁለንተናዊ",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "ሞኖ ከፍተኛ ንፅፅር",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "ወደ ከፍተኛ ንፅፅር ወደ ጥቁር እና ነጭ ይለወጣል ፣ ለአክሮማቶፕሲያ ተጠቃሚዎች ተስማሚ።",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "ለ achromatopes",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

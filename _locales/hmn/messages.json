@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Xim dig muag",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "CVD Lim",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Siv scientifically tseeb xim tsis pom kev simulation thiab kho cov ntxaij lim dej rau txhua lub vev xaib hauv lub sijhawm.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Pab kom xim lim",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulation",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Kho",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Lim hom",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Siab tawv",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Tuav los sib piv",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Disable ntawm qhov chaw no",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Tshem tawm kev zam rau",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 ntau",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Qhov kev txuas ntxiv no tsis tuaj yeem khiav ntawm nplooj ntawv no.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Simulation matrices raws li Viénot 1999 & Brettel 1997 kev tshawb fawb.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Simulation hom qhia tias nplooj ntawv zoo li cas rau ib tus neeg uas muaj xim tsis pom kev - muaj txiaj ntsig zoo rau cov neeg tsim qauv sim lawv txoj haujlwm. Kev kho hom siv daltonization los hloov cov xim tsis meej pem rau hauv ntau yam uas cov neeg siv xim dig muag tuaj yeem paub qhov txawv yooj yim dua.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Liab-ntsuab",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Xiav-daj",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monochromacy",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Kho",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopia",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Simulates ua tiav liab-cone poob (liab-dig muag).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% ntawm txiv neej",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomaly",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Simulates txo qis liab-cone rhiab heev (liab-tsis muaj zog).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% ntawm txiv neej",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopia",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Simulates ua tiav ntsuab-cone poob (ntsuab-dig muag).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% ntawm txiv neej",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomaly",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Simulates txo qis ntsuab-cone rhiab heev, feem ntau daim ntawv.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% ntawm txiv neej",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopia",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Simulates ua tiav xiav-cone poob (xiav-dig muag).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~ 0.01% ntawm cov neeg",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomaly",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Simulates txo xiav-cone rhiab heev (xiav-tsis muaj zog).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~ 0.01% ntawm cov neeg",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Achromatopsia",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Simulates ua tiav xim qhov muag tsis pom kev - tsuas yog luminance pom tau.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~ 0.003% ntawm cov neeg",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Achromatomaly",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Simulates ib nrab xim qhov muag tsis pom kev nrog txo cov xim pom zoo heev.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Tsis tshua muaj",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Kho: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Hloov cov xim liab-ntsuab tsis meej pem los pab cov neeg siv liab-dig muag.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Rau protanopes",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Kho: Deuteranopia",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Hloov cov xim liab-ntsuab tsis meej pem los pab ntsuab-dig muag cov neeg siv.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Rau deuteranopes",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Kho: Tritanopia",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Hloov cov xim xiav-daj tsis meej pem los pab cov neeg siv xiav-dub muag.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Rau tritanopes",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "High Contrast",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Boosts saturation thiab sib piv rau kev txhim kho xim sib cais ntawm txhua yam zaub.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universal",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono High Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Hloov mus rau qhov sib piv siab dub thiab dawb, zoo tagnrho rau cov neeg siv achromatopsia.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Rau achromatopes",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

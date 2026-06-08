@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Φίλτρο αχρωματοψίας",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Φίλτρο CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Εφαρμόζει επιστημονικά ακριβή φίλτρα προσομοίωσης έλλειψης χρωματικής όρασης και διόρθωσης σε οποιαδήποτε ιστοσελίδα σε πραγματικό χρόνο.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Ενεργοποίηση φίλτρου χρώματος",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Προσομοίωση",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Διόρθωση",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Λειτουργία φίλτρου",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Ένταση",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Κρατήστε για σύγκριση",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Απενεργοποίηση σε αυτόν τον ιστότοπο",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Κατάργηση εξαίρεσης για",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 περισσότερα",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Αυτή η επέκταση δεν μπορεί να εκτελεστεί σε αυτήν τη σελίδα.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Πίνακες προσομοίωσης βασισμένοι στην έρευνα των Viénot 1999 & Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Η λειτουργία προσομοίωσης δείχνει πώς φαίνεται μια σελίδα σε κάποιον με έλλειψη χρωματικής όρασης — χρήσιμη για τους σχεδιαστές που δοκιμάζουν τη δουλειά τους. Η λειτουργία διόρθωσης εφαρμόζει daltonization για τη μετατόπιση των μπερδεμένων χρωμάτων σε εύρη που οι χρήστες με αχρωματοψία μπορούν να διακρίνουν πιο εύκολα.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Κόκκινο-Πράσινο",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Μπλε-κίτρινο",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Μονοχρωματία",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Διόρθωση",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Πρωτανοπία",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Προσομοιώνει την πλήρη απώλεια κόκκινου κώνου (κόκκινο-τυφλό).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% των ανδρών",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Πρωτανομαλία",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "Προσομοιώνει μειωμένη ευαισθησία κόκκινου κώνου (κόκκινο-ασθενές).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% των ανδρών",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Δευτερονωπία",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Προσομοιώνει την πλήρη απώλεια πράσινου κώνου (πράσινο-τυφλό).",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% των ανδρών",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Δευτερομαλία",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Προσομοιώνει μειωμένη ευαισθησία πράσινου κώνου, την πιο κοινή μορφή.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% των ανδρών",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Τριτανοπία",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Προσομοιώνει την πλήρη απώλεια μπλε κώνου (μπλε-τυφλό).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0,01% των ανθρώπων",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Τριτανομαλία",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Προσομοιώνει μειωμένη ευαισθησία μπλε κώνου (μπλε-ασθενής).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0,01% των ανθρώπων",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Αχρωματοψία",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Προσομοιώνει την πλήρη αχρωματοψία — γίνεται αντιληπτή μόνο φωτεινότητα.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0,003% των ανθρώπων",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Αχρωματομαλία",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Προσομοιώνει τη μερική αχρωματοψία με πολύ μειωμένη αντίληψη χρωμάτων.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Σπάνιο",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Σωστό: Protanopia",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Μετατοπίζει τα χρώματα σύγχυσης κόκκινου-πράσινου για να βοηθήσει τους τυφλούς κόκκινους χρήστες.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Για πρωτανόπες",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Σωστό: Δευτερανωπία",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Αλλάζει τα χρώματα σύγχυσης κόκκινου-πράσινου για να βοηθήσει τους πρασινοτυφλούς χρήστες.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Για δευτερανόπες",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Σωστό: Τριτανοπία",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Μετατοπίζει τα μπλε-κίτρινα χρώματα σύγχυσης για να βοηθήσει τους μπλε-τυφλούς χρήστες.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Για τριτανόπες",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Υψηλή αντίθεση",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Ενισχύει τον κορεσμό και την αντίθεση για βελτιωμένο διαχωρισμό χρωμάτων σε οποιαδήποτε οθόνη.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universal",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Μονοφωνική Υψηλή Αντίθεση",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Μετατρέπεται σε ασπρόμαυρο υψηλής αντίθεσης, ιδανικό για χρήστες αχρωματοψίας.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Για αχρωματόπους",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

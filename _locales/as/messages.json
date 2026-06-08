@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "ৰং অন্ধ ফিল্টাৰ",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "চিভিডি ফিল্টাৰ",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "বাস্তৱ সময়ত যিকোনো ৱেবপেজত বৈজ্ঞানিকভাৱে সঠিক ৰঙৰ দৃষ্টিশক্তিৰ অভাৱ অনুকৰণ আৰু সংশোধন ফিল্টাৰ প্ৰয়োগ কৰে।",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "ৰঙৰ ফিল্টাৰ সামৰ্থবান কৰক",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "চিমুলেচন",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "শুধৰণি",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "ফিল্টাৰ ধৰণ",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "তীব্ৰতা",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "তুলনা কৰিবলৈ ধৰি ৰাখক",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "এই চাইটত নিষ্ক্ৰিয় কৰক",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "||| ৰ বাবে ব্যতিক্ৰম আঁতৰাওক + __PH_0__ অধিক",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "এই সম্প্ৰসাৰণ এই পৃষ্ঠাত চলিব নোৱাৰে।",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Viénot 1999 & Brettel 1997 গৱেষণাৰ ওপৰত ভিত্তি কৰি চিমুলেচন মেট্ৰিচ।",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "চিমুলেচন মোডে দেখুৱাই যে এটা পৃষ্ঠা ৰঙৰ দৃষ্টিশক্তিৰ অভাৱ থকা কোনোবা এজনক কেনেকৈ দেখা যায় — ডিজাইনাৰসকলে তেওঁলোকৰ কাম পৰীক্ষা কৰাৰ বাবে উপযোগী। সংশোধন ধৰণে বিভ্ৰান্তিকৰ ৰংসমূহক ৰং-অন্ধ ব্যৱহাৰকাৰীসকলে অধিক সহজে পৃথক কৰিব পৰা পৰিসীমাসমূহলৈ স্থানান্তৰ কৰিবলৈ ডালটনাইজেচন প্ৰয়োগ কৰে।",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "ৰঙা-সেউজীয়া",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "নীলা-হালধীয়া",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "একৰঙীতা",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "শুধৰণি",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "প্ৰ'টানোপিয়া",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "সম্পূৰ্ণ ৰঙা-শঙ্কু ক্ষতি (ৰঙা-অন্ধ) অনুকৰণ কৰে।",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "~১% পুৰুষ",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "প্ৰ'টান'মেলি",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "ৰঙা-শঙ্কুৰ সংবেদনশীলতা হ্ৰাস পোৱা (ৰঙা-দুৰ্বল) অনুকৰণ কৰে।",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~১% পুৰুষ",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "ডিউটেৰানোপিয়া",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "সম্পূৰ্ণ সেউজীয়া-শঙ্কু ক্ষতি (সেউজীয়া-অন্ধ) অনুকৰণ কৰে।",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "~১% পুৰুষ",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "ডিউটেৰেন'মেলি",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "হ্ৰাস পোৱা সেউজীয়া-শঙ্কুৰ সংবেদনশীলতা অনুকৰণ কৰে, যিটো আটাইতকৈ সাধাৰণ ৰূপ।",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "~৫% পুৰুষ",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "ট্ৰাইটানোপিয়া",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "সম্পূৰ্ণ নীলা-শঙ্কু ক্ষতি (নীলা-অন্ধ) অনুকৰণ কৰে।",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~০.০১% মানুহৰ",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "ট্ৰাইটানোমেলি",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "হ্ৰাস পোৱা নীলা-শঙ্কুৰ সংবেদনশীলতা (নীলা-দুৰ্বল) অনুকৰণ কৰে।",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "~০.০১% মানুহৰ",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "এক্ৰ'মেট'পচিয়া",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "সম্পূৰ্ণ ৰঙৰ অন্ধতাৰ অনুকৰণ কৰে — কেৱল উজ্জ্বলতাহে অনুভৱ কৰা হয়।",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "~০.০০৩% মানুহৰ",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "এক্ৰ'মেট'মেলি",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ৰঙৰ উপলব্ধি বহু পৰিমাণে হ্ৰাস পোৱাৰ সৈতে আংশিক ৰঙৰ অন্ধতাৰ অনুকৰণ কৰে।",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "বিৰল",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "শুদ্ধ: প্ৰটানোপিয়া",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ৰঙা-অন্ধ ব্যৱহাৰকাৰীসকলক সহায় কৰিবলৈ ৰঙা-সেউজীয়া বিভ্ৰান্তিৰ ৰংসমূহ স্থানান্তৰ কৰে।",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "প্ৰ'টেন'পৰ বাবে",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "শুদ্ধ: ডিউটেৰানোপিয়া",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "সেউজীয়া-অন্ধ ব্যৱহাৰকাৰীসকলক সহায় কৰিবলৈ ৰঙা-সেউজীয়া বিভ্ৰান্তিৰ ৰংসমূহ স্থানান্তৰ কৰে।",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ডিউটেৰানোপৰ বাবে",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "শুদ্ধ: ট্ৰাইটানোপিয়া",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "নীলা-অন্ধ ব্যৱহাৰকাৰীসকলক সহায় কৰিবলৈ নীলা-হালধীয়া বিভ্ৰান্তিৰ ৰংসমূহ স্থানান্তৰ কৰে।",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ট্ৰাইটানোপৰ বাবে",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "উচ্চ কনট্ৰাষ্ট",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "যিকোনো প্ৰদৰ্শনত উন্নত ৰঙৰ পৃথকীকৰণৰ বাবে চেচুৰেচন আৰু কনট্ৰাষ্ট বৃদ্ধি কৰে।",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "সাৰ্বজনীন",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "মনো হাই কনট্ৰাষ্ট",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "উচ্চ-বিপৰীত ক'লা আৰু বগালৈ ৰূপান্তৰিত হয়, এক্ৰ'মেট'পচিয়া ব্যৱহাৰকাৰীৰ বাবে আদৰ্শ।",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "এক্ৰ’মেট’পৰ বাবে",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

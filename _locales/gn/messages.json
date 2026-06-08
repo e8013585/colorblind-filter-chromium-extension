@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filtro Ciego de Color rehegua",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Filtro CVD rehegua",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Oipuru umi filtro simulación ha corrección deficiencia visión color rehegua científicamente hendaitépe oimeraẽva página web-pe tiempo real-pe.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Emboguata filtro sa'y rehegua",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulación rehegua",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Ñemyatyrõ",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Modo filtro rehegua",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Intensidad rehegua",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Jajoko ñambojoja hagua",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Embogue ko tendápe",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Ojepe’a excepción |||-pe g̃uarã + __PH_0__ hetave",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Ko extensión ndaikatúi oñemboguata ko página-pe.",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "Matriz simulación rehegua oñemopyendáva investigación Viénot 1999 & Brettel 1997 rehe.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Modo simulación ohechauka mbaꞌeichaitépa ojehecha peteĩ página peteĩ tapicha orekóva deficiencia visión color rehegua — iporãva umi diseñador-pe g̃uarã oproba hag̃ua hembiapo. Modo corrección rehegua oipuru daltonización ombohasa hag̃ua umi saꞌi oñembojoavyva umi rango-pe umi puruhára ciego de color ikatu ombojoavy pyaꞌeve.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Pytã-Verde",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Hovy-Hovy",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Monocromacia rehegua",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Ñemyatyrõ",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Protanopia rehegua",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Osimula pérdida completa cono rojo rehegua (rojo-ciego).",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "~1% kuimba'ekuéragui",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "Protanomalia rehegua",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Osimula sensibilidad cono rojo oñemboguejýva (pytã-kangy).",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~1% kuimba'ekuéragui",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Deuteranopia rehegua",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Osimula pérdida completa cono verde (verde-ciego).",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "~1% kuimba'ekuéragui",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "Deuteranomalía rehegua",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Osimula sensibilidad cono verde oñemboguejýva, pe forma ojehechavéva.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "~5% kuimba'ekuéragui",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Tritanopia rehegua",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Osimula pérdida completa cono hovy (hovy-ciego).",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "~0,01% tapicha",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "Tritanomalia rehegua",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Osimula sensibilidad cono hovy oñemboguejýva (hovy-kangy).",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "~0,01% tapicha",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "Acromatopsia rehegua",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Osimula ceguera de color completo — ojehechakuaa luminancia añoite.",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "~0,003% tapicha",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Acromatomalía rehegua",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Osimula ceguera parcial color rehegua tuicha oñemboguejýva percepción color reheve.",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "Rara",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Oĩ porã: Protanopia",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Ombohasa umi sa’y confusión pytã-verde oipytyvõ hag̃ua umi puruhára pytã-ciego-pe.",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "Protanope-kuérape guarã",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Oĩ porã: Deuteranopia",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Ombohasa umi sa’y confusión pytã-verde oipytyvõ hag̃ua umi puruhára verde-ciego-pe.",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "Deuteranopes-pe guarã",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Oĩ porã: Tritanopia",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Ombohasa umi sa’y confusión hovy-hovy oipytyvõ hag̃ua umi puruhára hovy-ciego-pe.",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "Tritanope-kuérape guarã",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Contraste yvate",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Omombarete saturación ha contraste oñemyatyrõ hag̃ua color separación oimeraẽva jehechaukahápe.",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "Universal",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Mono Contraste yvate",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Oñemoambue contraste yvate morotĩ ha hũvape, iporãva umi acromatopsia oiporúvape g̃uarã.",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "Umi acromatopo-pe guarã",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

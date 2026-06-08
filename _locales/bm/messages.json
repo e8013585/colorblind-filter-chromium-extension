@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filtre de Colorblind",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Filɛtiri CVD",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "A bɛ dɔnniya siratigɛ la, kulɛri yeli dɛsɛ simulatigɛ ni latilenni filɛriw kɛ ɛntɛrinɛti yɔrɔ o yɔrɔ la waati yɛrɛ la.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "Filɛri kulɛrilenw daminɛ",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Simulasi ye",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Tiɲɛni",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Filɛri cogoya",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "Intensité (kɛnɛya)",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Minɛ ka ɲɔgɔn sanga",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Disable kɛ nin siti in kan",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Ka danfara bɔ yen",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 ka ca",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "O farankan tɛ Se ka Kɛ nin ɲɛ in kan.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Simulasi matiriyali minnu sinsinnen bɛ Viénot 1999 & Brettel 1997 ka ɲininiw kan.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "Simulation mode b’a jira cogo min na ɲɛ dɔ bɛ mɔgɔ la min ka kulɛri yecogo dɛsɛlen don — nafa bɛ o la dilanbagaw bolo minnu b’u ka baara kɔrɔbɔ. Correction mode bɛ daltonization (daltonize) Kɛ walasa ka kulɛriw ɲagaminenw Yɛlɛma ka Kɛ ranges (yɔrɔw) ye colorblind baarakɛlaw bɛ Se ka minnu Bɔ ɲɔgɔn na nɔgɔya la.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "Biɲɛ-Gɛrɛn",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Bleu-Jaune",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "Monochromacy (Kɔrɔɲɔgɔnma kelen)",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Tiɲɛni",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "Protanopie (banakisɛfagalanw)",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "A bɛ bɔnɛ dafalen ladege (cone bilenman-fiyentɔ).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% cɛw la",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Protanomali (banakisɛfagalanw)",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "A bɛ kɛ sababu ye ka kɔni bilenmanw sɛgɛsɛgɛli dɔgɔya (bilen-barikantan).",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% cɛw la",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "Deuteranopie",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "A bɛ bɔnɛ dafalen simulate green-cone (green-blind) la.",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% cɛw la",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Deuteranomalie (Deuteranomalie)",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "A bɛ jiri-kɔni-sɛgɛsɛgɛli dɔgɔyali ladege, o ye a suguya ye min ka teli ka kɛ.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% cɛw la",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Tritanopie (Tritanopie)",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "A bɛ bulu-kɔni bɔnɛ dafalen simulate (bulu-fiyentɔ).",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0,01% ka mɔgɔw",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Tritanomali (Tritanomali)",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "A bɛ bulu-kɔni sɛgɛsɛgɛli dɔgɔyali ladege (bulu-barikantan).",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0,01% ka mɔgɔw",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Akromatopsie (Achromatopsie)",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "A bɛ kulɛri fiyentɔya dafalen ladege — yeelen dɔrɔn de bɛ ye.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0,003% ka mɔgɔw",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "Akromatomali (Achromatomaly) ye",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "A bɛ kulɛri fiyentɔya yɔrɔ dɔw ladege ni kulɛri faamuyali dɔgɔyali ye kosɛbɛ.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "Rare",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "Tiɲɛ na: Protanopie",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "A bɛ ɲagami kulɛri bilenman-wuluwuluw wuli walasa ka fiyentɔ bilenmanw dɛmɛ.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "Ka ɲɛsin protanopew ma",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "Tiɲɛ na: Deuteranopie",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "A bɛ ɲagami kulɛri bilenman-wuluwuluw wuli walasa ka wuluwulu-fiyentɔw dɛmɛ.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "Ka ɲɛsin deuteranopes ma",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "Tiɲɛ na: Tritanopie",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "A bɛ ɲagami kulɛri bulu-jɛmanw sɛmɛntiya walasa ka bulu-fiyentɔw dɛmɛ.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "Ka ɲɛsin tritanopew ma",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "Kontra ka bon",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "A bɛ saturation ni contrast bonya walasa ka kulɛriw faranfasi ka ɲɛ jiralan suguya bɛɛ kan.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "Universel",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "Mono Haute Contrast",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "A bɛ wuli ka kɛ nɛrɛmuguma ni nɛrɛmuguma ye min bɛ danfaraba la, o ka ɲi achromatopsia kɛbagaw ma.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "Ka ɲɛsin akɔromatopuw ma",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

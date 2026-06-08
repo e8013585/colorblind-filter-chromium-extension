@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Filter Colorblind || Criathrag CVD || A’ cur an sàs atharrais dìth lèirsinn dath a tha ceart gu saidheansail agus sìoltachain ceartachaidh gu duilleag-lìn sam bith ann an àm fìor.",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "Cuir an comas sìoltachan dath",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Samhlachadh|||| Ceartachadh|||| Modh sìoltachain",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "dian",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "Cùm gus coimeas a dhèanamh",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "Cuir à comas air an làrach seo",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "Thoir air falbh eisgeachd airson",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "+ __PH_0__ barrachd",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "Chan urrainn dhan leudachan seo ruith air an duilleag seo.",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "Matrices atharrais stèidhichte air rannsachadh Viénot 1999 & Brettel 1997.",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "Tha modh atharrais a’ sealltainn mar a tha duilleag a’ coimhead ri cuideigin le dìth lèirsinn dath - feumail do luchd-dealbhaidh a’ dèanamh deuchainn air an obair aca. Bidh modh ceartachaidh a’ toirt a-steach daltonization gus dathan troimh-chèile a ghluasad gu raointean a dh’ fhaodas luchd-cleachdaidh dall aithneachadh nas fhasa.",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "Dearg-uaine|| Gorm-Buidhe|| Monochromacy|| Ceartachadh|||| Protanopia|| A ’samhlachadh call còn dearg iomlan (dearg-dall).",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "~1% de na fireannaich",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "Protanomaly",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "A ’samhlachadh cugallachd còn dearg lùghdaichte (dearg-lag).",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "~1% de na fireannaich",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "Deuteranopia|| A ’samhlachadh call còn uaine iomlan (uaine-dall).",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "~1% de na fireannaich",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "Deuteranomaly|| A 'samhlachadh cugallachd còn uaine, an cruth as cumanta.",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "~5% de dh'fhir",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "Tritanopia|| A ’samhlachadh call còn gorm iomlan (gorm-dall).",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~0.01% de dhaoine",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "Tritanomaly|| A ’samhlachadh cugallachd còn gorm lùghdaichte (gorm-lag).",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "~0.01% de dhaoine",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "Achromatopsia|| A ’dèanamh atharrais air dall dath iomlan - chan eilear a’ faicinn ach soilleireachd.",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "~0.003% de dhaoine",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "Achromatomaly",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "A ’dèanamh atharrais air dall dath pàirteach le tuigse dath air a lughdachadh gu mòr.",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "Glè ainneamh|| Ceart: Protanopia || Ag atharrachadh dathan troimh-chèile dearg-uaine gus luchd-cleachdaidh dearg-dall a chuideachadh.",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "Airson protanopes",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "Ceart: Deuteranopia || A’ gluasad dathan troimh-chèile dearg-uaine gus luchd-cleachdaidh uaine-dall a chuideachadh.",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "Airson deuteranopes",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "Ceart: Tritanopia",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "A’ gluasad dathan troimh-chèile gorm-buidhe gus luchd-cleachdaidh gorm-dall a chuideachadh.",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "Airson tritanopes",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "Àrd coimeas",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "A’ neartachadh sùghaidh agus iomsgaradh airson dealachadh dath nas fheàrr air taisbeanadh sam bith.",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "Uile-choitcheann|| Coimeas Àrd Mono",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "Tionndadh gu dubh is geal le coimeas àrd, air leth freagarrach airson luchd-cleachdaidh achromatopsia.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "Airson achromatopes",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}

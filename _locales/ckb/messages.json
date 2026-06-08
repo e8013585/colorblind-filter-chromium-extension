@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "فلتەری ڕەنگ کوێر",
+    "description": "The name of the extension."
+  },
+  "extensionShortName": {
+    "message": "فلتەری سی ڤی دی",
+    "description": "Short name of the extension."
+  },
+  "extensionDescription": {
+    "message": "فلتەری ھاوشێوەکردن و ڕاستکردنەوەی کەمی بینینی ڕەنگ بە وردی لە ڕووی زانستییەوە بۆ ھەر وێبپەڕێک لە کاتی ڕاستەقینەدا بەکاردەهێنێت.",
+    "description": "Extension description shown in the Chrome Web Store and extension management page."
+  },
+  "masterToggleLabel": {
+    "message": "فلتەری ڕەنگەکان چالاک بکە",
+    "description": "Accessible label for the master on/off toggle switch."
+  },
+  "modeSimulation": {
+    "message": "ھاوشێوەکردن",
+    "description": "Label for the Simulation mode tab."
+  },
+  "modeCorrection": {
+    "message": "ڕاستکردنەوە",
+    "description": "Label for the Correction mode tab."
+  },
+  "modeTabsAriaLabel": {
+    "message": "دۆخی فلتەر",
+    "description": "Accessible label for the mode tab list."
+  },
+  "intensityLabel": {
+    "message": "چڕی",
+    "description": "Label for the intensity range slider."
+  },
+  "compareButton": {
+    "message": "گرتن بۆ بەراوردکردن",
+    "description": "Text on the quick compare button."
+  },
+  "disableOnSiteLabel": {
+    "message": "لەم سایتەدا لەکاربخە",
+    "description": "Label for the site exception toggle."
+  },
+  "removeExceptionAriaLabel": {
+    "message": "لابردنی ئیستسنای بۆ",
+    "description": "Accessible label prefix for the exception remove button. Hostname is appended."
+  },
+  "exceptionsMore": {
+    "message": "+ $1 زیاتر",
+    "description": "Shown below the exception list when there are more than 3 items. $1 is the count.",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "notAvailableOnPage": {
+    "message": "ئەم درێژکراوەیە ناتوانێت لەم لاپەڕەیەدا کار بکات.",
+    "description": "Banner shown when the extension cannot inject into the current page."
+  },
+  "filterSourceNote": {
+    "message": "ماتریسەکانی ھاوشێوەکردن لەسەر بنەمای لێکۆڵینەوەکانی Viénot 1999 & Brettel 1997.",
+    "description": "Footer note crediting the scientific sources of the filter matrices."
+  },
+  "infoTooltipText": {
+    "message": "دۆخی ھاوشێوەکردن نیشان دەدات کە چۆن لاپەڕەیەک بۆ کەسێک دەردەکەوێت کە کەمی بینینی ڕەنگی هەیە — بەسوودە بۆ دیزاینەران کە کارەکانیان تاقی دەکەنەوە. دۆخی ڕاستکردنەوە داڵتۆنکردن بەکاردەهێنێت بۆ گۆڕینی ڕەنگە سەرلێشێواوەکان بۆ مەودایەک کە بەکارهێنەرانی ڕەنگکوێر دەتوانن بە ئاسانی جیایان بکەنەوە.",
+    "description": "Tooltip text explaining the difference between simulation and correction modes."
+  },
+  "categoryRedGreen": {
+    "message": "سوور-سەوز",
+    "description": "Category label for red-green color vision deficiencies."
+  },
+  "categoryBlueYellow": {
+    "message": "شین-زەرد",
+    "description": "Category label for blue-yellow color vision deficiencies."
+  },
+  "categoryMonochromacy": {
+    "message": "تاکڕەنگی",
+    "description": "Category label for monochromacy (complete or near-complete color blindness)."
+  },
+  "categoryCorrection": {
+    "message": "ڕاستکردنەوە",
+    "description": "Category label for daltonization correction filters."
+  },
+  "filterProtanopiaName": {
+    "message": "پرۆتانۆپیا",
+    "description": "Name of the protanopia simulation filter."
+  },
+  "filterProtanopiaDesc": {
+    "message": "لەدەستدانی تەواوەتی گۆچکە سوور (سوور-کوێر) ھاوشێوە دەکات.",
+    "description": "One-sentence description of the protanopia simulation."
+  },
+  "filterProtanopiaPrevalence": {
+    "message": "~1% لە نێرەکان",
+    "description": "Prevalence of protanopia."
+  },
+  "filterProtanomalyName": {
+    "message": "پرۆتانۆمالی",
+    "description": "Name of the protanomaly simulation filter."
+  },
+  "filterProtanomalyDesc": {
+    "message": "کەمبوونەوەی هەستیاری گۆچکە سوور (سوور-لاواز) ھاوشێوە دەکات.",
+    "description": "One-sentence description of the protanomaly simulation."
+  },
+  "filterProtanomalyPrevalence": {
+    "message": "~1% لە نێرەکان",
+    "description": "Prevalence of protanomaly."
+  },
+  "filterDeuteranopiaName": {
+    "message": "دیوتێرانۆپیا",
+    "description": "Name of the deuteranopia simulation filter."
+  },
+  "filterDeuteranopiaDesc": {
+    "message": "لەدەستدانی تەواوەتی سەوز-کۆن (سەوز-کوێر) ھاوشێوە دەکات.",
+    "description": "One-sentence description of the deuteranopia simulation."
+  },
+  "filterDeuteranopiaPrevalence": {
+    "message": "~1% لە نێرەکان",
+    "description": "Prevalence of deuteranopia."
+  },
+  "filterDeuteranomalyName": {
+    "message": "نەخۆشی دووبارەبوونەوەی جەستە",
+    "description": "Name of the deuteranomaly simulation filter."
+  },
+  "filterDeuteranomalyDesc": {
+    "message": "کەمبوونەوەی هەستیاری سەوز-کۆن ھاوشێوە دەکات، کە باوترین فۆرم.",
+    "description": "One-sentence description of the deuteranomaly simulation."
+  },
+  "filterDeuteranomalyPrevalence": {
+    "message": "~5% لە نێرەکان",
+    "description": "Prevalence of deuteranomaly."
+  },
+  "filterTritanopiaName": {
+    "message": "تریتانۆپیا",
+    "description": "Name of the tritanopia simulation filter."
+  },
+  "filterTritanopiaDesc": {
+    "message": "لەدەستدانی تەواوەتی گۆچکە شین (شین-کوێر) ھاوشێوە دەکات.",
+    "description": "One-sentence description of the tritanopia simulation."
+  },
+  "filterTritanopiaPrevalence": {
+    "message": "~0.01% لە خەڵک",
+    "description": "Prevalence of tritanopia."
+  },
+  "filterTritanomalyName": {
+    "message": "تریتانۆمالی",
+    "description": "Name of the tritanomaly simulation filter."
+  },
+  "filterTritanomalyDesc": {
+    "message": "کەمبوونەوەی هەستیاری شین-کۆن (شین-لاواز) ھاوشێوە دەکات.",
+    "description": "One-sentence description of the tritanomaly simulation."
+  },
+  "filterTritanomalyPrevalence": {
+    "message": "~0.01% لە خەڵک",
+    "description": "Prevalence of tritanomaly."
+  },
+  "filterAchromatopsiaName": {
+    "message": "ئەکرۆماتۆپسیا",
+    "description": "Name of the achromatopsia simulation filter."
+  },
+  "filterAchromatopsiaDesc": {
+    "message": "ڕەنگ کوێربوونی تەواو ھاوشێوە دەکات — تەنیا ڕووناکی ھەست پێدەکرێت.",
+    "description": "One-sentence description of the achromatopsia simulation."
+  },
+  "filterAchromatopsiaPrevalence": {
+    "message": "~0.003% لە خەڵک",
+    "description": "Prevalence of achromatopsia."
+  },
+  "filterAchromatomalyName": {
+    "message": "ئەکرۆماتۆمالی",
+    "description": "Name of the achromatomaly simulation filter."
+  },
+  "filterAchromatomalyDesc": {
+    "message": "کوێربوونی ڕەنگی بەشەکی ھاوشێوە دەکات لەگەڵ کەمبوونەوەی تێگەیشتنی ڕەنگەکان.",
+    "description": "One-sentence description of the achromatomaly simulation."
+  },
+  "filterAchromatomalyPrevalence": {
+    "message": "دەگمەن",
+    "description": "Prevalence of achromatomaly."
+  },
+  "filterProtanopiaCorrName": {
+    "message": "ڕاست: پرۆتانۆپیا",
+    "description": "Name of the protanopia daltonization correction filter."
+  },
+  "filterProtanopiaCorrDesc": {
+    "message": "ڕەنگەکانی سەرلێشێواوی سوور-سەوز دەگۆڕێت بۆ یارمەتیدانی بەکارهێنەرانی سوور-کوێر.",
+    "description": "One-sentence description of the protanopia correction filter."
+  },
+  "filterProtanopiaCorrPrevalence": {
+    "message": "بۆ پرۆتانۆپەکان",
+    "description": "Target audience for the protanopia correction filter."
+  },
+  "filterDeuteranopiaCorrName": {
+    "message": "ڕاست: دیوتێرانۆپیا",
+    "description": "Name of the deuteranopia daltonization correction filter."
+  },
+  "filterDeuteranopiaCorrDesc": {
+    "message": "ڕەنگەکانی سەرلێشێواوی سوور-سەوز دەگۆڕێت بۆ یارمەتیدانی بەکارهێنەرانی سەوز-کوێر.",
+    "description": "One-sentence description of the deuteranopia correction filter."
+  },
+  "filterDeuteranopiaCorrPrevalence": {
+    "message": "بۆ دیوترانۆپەکان",
+    "description": "Target audience for the deuteranopia correction filter."
+  },
+  "filterTritanopiaCorrName": {
+    "message": "ڕاست: تریتانۆپیا",
+    "description": "Name of the tritanopia daltonization correction filter."
+  },
+  "filterTritanopiaCorrDesc": {
+    "message": "ڕەنگەکانی سەرلێشێواوی شین-زەرد دەگۆڕێت بۆ یارمەتیدانی بەکارهێنەرانی شین-کوێر.",
+    "description": "One-sentence description of the tritanopia correction filter."
+  },
+  "filterTritanopiaCorrPrevalence": {
+    "message": "بۆ تریتانۆپەکان",
+    "description": "Target audience for the tritanopia correction filter."
+  },
+  "filterHighContrastName": {
+    "message": "کۆنتراستی بەرز",
+    "description": "Name of the high contrast universal accessibility filter."
+  },
+  "filterHighContrastDesc": {
+    "message": "تێربوون و کۆنتراست بەرز دەکاتەوە بۆ باشترکردنی جیاکردنەوەی ڕەنگەکان لەسەر هەر شاشەیەک.",
+    "description": "One-sentence description of the high contrast filter."
+  },
+  "filterHighContrastPrevalence": {
+    "message": "گشتگیر",
+    "description": "Target audience for the high contrast filter."
+  },
+  "filterMonochromeContrastName": {
+    "message": "مۆنۆ کۆنتراستی بەرز",
+    "description": "Name of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastDesc": {
+    "message": "دەگۆڕێت بۆ ڕەش و سپی کۆنتراستی بەرز، گونجاوە بۆ بەکارهێنەرانی ئەکرۆماتۆپسیا.",
+    "description": "One-sentence description of the monochrome high contrast filter."
+  },
+  "filterMonochromeContrastPrevalence": {
+    "message": "بۆ ئەکرۆماتۆپەکان",
+    "description": "Target audience for the monochrome high contrast filter."
+  }
+}
